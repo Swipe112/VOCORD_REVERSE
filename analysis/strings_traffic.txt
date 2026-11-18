@@ -1,0 +1,21 @@
+INVALID BINARY FILE
+LoadLibrary%02d v
+Set_Mask%02d
+SetPreferableRegionalCodes_old
+BinaryInfo(LPlates)
+Total formats loaded
+Preferable regional codes
+SetLibraryWeight
+LPFORMATS
+config DISCARDED
+No regional codes set
+Attempt to apply regional codes
+Total formats: loaded
+Weight for format
+SetFormatEnabled
+SetFormatWeight
+Enabled
+countryid
+OCR is ENABLED
+Init OCR
+LoadLibrary%02d OK

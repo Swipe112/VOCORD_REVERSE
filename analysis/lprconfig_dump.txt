@@ -1,0 +1,344 @@
+====================================================================================================
+VOCORD LPR2 CONFIG DUMP: /home/rafa/vocord/lprconfig_by-lt-lv_1F.binary
+file size: 2477676 (0x25CE6C)
+====================================================================================================
+
+[HEADER]
+  magic      : b'LPR2'
+  version    : 1 (at +8)
+  libcount   : 3 (at +0x10)
+  field+0x14 : 0
+  field+0x18 : 0
+  version bytes (+0x20): 13.7, libraries=3
+  table (+0x23), 3 entries of 8 bytes (lib_id, lib_version):
+    [0] lib_id=5 ver=35
+    [1] lib_id=7 ver=23
+    [2] lib_id=6 ver=23
+
+[MATRIX RECORD] 0x3B .. (first -1)
+  record span: 0x3B .. 0x9CCCB (642192 bytes)
+  head dwords: [0, 4, 3, 280, 16, 12, 1]
+  (0, 4=dims, 3=submatrices, 280=glyph dim, 16, 12, 1)
+  -1 separator at 0x9CCCB, name after: b'LPFORMATS'
+
+====================================================================================================
+[LIBRARY 0] blob starts at 0x9CCD8
+  format_count = 2
+  field X (+4) = 5
+  field Y (+8) = 35
+  glyph_count  = 22
+  glyph list at 0x9CCE8:
+    [ 0] char='0' float=0.650 (first entry, 8 bytes)
+    [ 1] sep=FFFFFFFF flag=1 char='1' (u+0031) float=0.550
+    [ 2] sep=FFFFFFFF flag=1 char='2' (u+0032) float=0.650
+    [ 3] sep=FFFFFFFF flag=1 char='3' (u+0033) float=0.650
+    [ 4] sep=FFFFFFFF flag=1 char='4' (u+0034) float=0.650
+    [ 5] sep=FFFFFFFF flag=1 char='5' (u+0035) float=0.650
+    [ 6] sep=FFFFFFFF flag=1 char='6' (u+0036) float=0.650
+    [ 7] sep=FFFFFFFF flag=1 char='7' (u+0037) float=0.650
+    [ 8] sep=FFFFFFFF flag=1 char='8' (u+0038) float=0.650
+    [ 9] sep=FFFFFFFF flag=1 char='9' (u+0039) float=0.650
+    [10] sep=FFFFFFFF flag=1 char='А' (u+0410) float=0.700
+    [11] sep=FFFFFFFF flag=0 char='В' (u+0412) float=0.700
+    [12] sep=FFFFFFFF flag=0 char='С' (u+0421) float=0.700
+    [13] sep=FFFFFFFF flag=0 char='Е' (u+0415) float=0.700
+    [14] sep=FFFFFFFF flag=0 char='Н' (u+041D) float=0.700
+    [15] sep=FFFFFFFF flag=0 char='I' (u+0049) float=0.400
+    [16] sep=FFFFFFFF flag=0 char='К' (u+041A) float=0.700
+    [17] sep=FFFFFFFF flag=0 char='М' (u+041C) float=0.750
+    [18] sep=FFFFFFFF flag=0 char='О' (u+041E) float=0.700
+    [19] sep=FFFFFFFF flag=0 char='Р' (u+0420) float=0.700
+    [20] sep=FFFFFFFF flag=0 char='Т' (u+0422) float=0.700
+    [21] sep=FFFFFFFF flag=0 char='Х' (u+0425) float=0.700
+  glyph copy block ends at 0x9CE48
+  matrix (font features) copied from 0x9CE48, 131605 dwords (526420 bytes)
+    (prefix at 0x9CE40: FFFFFFFF 00000000)
+    matrix[+0] = 5, [+4] = 7
+    mask string 1 (+8):  '8365XKAKOC'  (len 10)
+    mask string 2 (+408): 'KMOCBEAKMKHKKH'  (len 14)
+  [FORMAT 0] record at 0x11D69C (10608 bytes)
+    +0x00 = 5 (0x5)
+    +0x04 = 0
+    +0x08 = 0
+    +0x0C = 7  (positions, <=16)
+    +0x10 = 22  (glyph class entries)
+    +0x14 = 0
+    +0x18 = 1
+    +0x28 = 3, +0x2C = 1
+    +0x30 = 4294967295
+    +0x48 = 3, +0x4C = 3
+    +0x5C float = 1.000
+    mask1 (+0x60, utf16): 'zzzzzz\x1fz'
+    mask2 (+0xA0, utf16): '******\x1f*'
+    floats +0xE0: 0.000 0.000 0.120 1.000 1.000 1.000 0.500 0.500 1.000 1.000 0.500 0.500 0.000 0.000 0.140 0.000
+    glyph classes at +0x1D28 (0x11F3D0), 22 entries:
+      [ 0] char='0' (u+0030) float=0.650  first entry 8 bytes
+      [ 1] sep=FFFFFFFF flag=1 char='1' (u+0031) float=0.550
+      [ 2] sep=FFFFFFFF flag=1 char='2' (u+0032) float=0.650
+      [ 3] sep=FFFFFFFF flag=1 char='3' (u+0033) float=0.650
+      [ 4] sep=FFFFFFFF flag=1 char='4' (u+0034) float=0.650
+      [ 5] sep=FFFFFFFF flag=1 char='5' (u+0035) float=0.650
+      [ 6] sep=FFFFFFFF flag=1 char='6' (u+0036) float=0.650
+      [ 7] sep=FFFFFFFF flag=1 char='7' (u+0037) float=0.650
+      [ 8] sep=FFFFFFFF flag=1 char='8' (u+0038) float=0.650
+      [ 9] sep=FFFFFFFF flag=1 char='9' (u+0039) float=0.650
+      [10] sep=FFFFFFFF flag=1 char='А' (u+0410) float=0.700
+      [11] sep=FFFFFFFF flag=0 char='В' (u+0412) float=0.700
+      [12] sep=FFFFFFFF flag=0 char='С' (u+0421) float=0.700
+      [13] sep=FFFFFFFF flag=0 char='Е' (u+0415) float=0.700
+      [14] sep=FFFFFFFF flag=0 char='Н' (u+041D) float=0.700
+      [15] sep=FFFFFFFF flag=0 char='I' (u+0049) float=0.400
+      [16] sep=FFFFFFFF flag=0 char='К' (u+041A) float=0.700
+      [17] sep=FFFFFFFF flag=0 char='М' (u+041C) float=0.750
+      [18] sep=FFFFFFFF flag=0 char='О' (u+041E) float=0.700
+      [19] sep=FFFFFFFF flag=0 char='Р' (u+0420) float=0.700
+      [20] sep=FFFFFFFF flag=0 char='Т' (u+0422) float=0.700
+      [21] sep=FFFFFFFF flag=0 char='Х' (u+0425) float=0.700
+    glyph template refs: +0x2134=0, +0x2138=0 (shl 15 -> offsets)
+    float +0x2940=0.390, +0x2948=0.390 (scaled by lib weight)
+  [FORMAT 1] record at 0x12000C (10608 bytes)
+    +0x00 = 5 (0x5)
+    +0x04 = 1
+    +0x08 = 0
+    +0x0C = 7  (positions, <=16)
+    +0x10 = 22  (glyph class entries)
+    +0x14 = 0
+    +0x18 = 1
+    +0x28 = 3, +0x2C = 1
+    +0x30 = 4294967295
+    +0x48 = 3, +0x4C = 3
+    +0x5C float = 1.000
+    mask1 (+0x60, utf16): 'zzzzzz\x1fz'
+    mask2 (+0xA0, utf16): '******\x1f*'
+    floats +0xE0: 0.000 0.000 0.130 1.000 1.000 1.000 0.500 0.500 1.000 1.000 0.500 0.500 0.000 0.000 0.150 0.000
+    glyph classes at +0x1D28 (0x121D40), 22 entries:
+      [ 0] char='0' (u+0030) float=0.650  first entry 8 bytes
+      [ 1] sep=FFFFFFFF flag=1 char='1' (u+0031) float=0.550
+      [ 2] sep=FFFFFFFF flag=1 char='2' (u+0032) float=0.650
+      [ 3] sep=FFFFFFFF flag=1 char='3' (u+0033) float=0.650
+      [ 4] sep=FFFFFFFF flag=1 char='4' (u+0034) float=0.650
+      [ 5] sep=FFFFFFFF flag=1 char='5' (u+0035) float=0.650
+      [ 6] sep=FFFFFFFF flag=1 char='6' (u+0036) float=0.650
+      [ 7] sep=FFFFFFFF flag=1 char='7' (u+0037) float=0.650
+      [ 8] sep=FFFFFFFF flag=1 char='8' (u+0038) float=0.650
+      [ 9] sep=FFFFFFFF flag=1 char='9' (u+0039) float=0.650
+      [10] sep=FFFFFFFF flag=1 char='А' (u+0410) float=0.700
+      [11] sep=FFFFFFFF flag=0 char='В' (u+0412) float=0.700
+      [12] sep=FFFFFFFF flag=0 char='С' (u+0421) float=0.700
+      [13] sep=FFFFFFFF flag=0 char='Е' (u+0415) float=0.700
+      [14] sep=FFFFFFFF flag=0 char='Н' (u+041D) float=0.700
+      [15] sep=FFFFFFFF flag=0 char='I' (u+0049) float=0.400
+      [16] sep=FFFFFFFF flag=0 char='К' (u+041A) float=0.700
+      [17] sep=FFFFFFFF flag=0 char='М' (u+041C) float=0.750
+      [18] sep=FFFFFFFF flag=0 char='О' (u+041E) float=0.700
+      [19] sep=FFFFFFFF flag=0 char='Р' (u+0420) float=0.700
+      [20] sep=FFFFFFFF flag=0 char='Т' (u+0422) float=0.700
+      [21] sep=FFFFFFFF flag=0 char='Х' (u+0425) float=0.700
+    glyph template refs: +0x2134=0, +0x2138=1 (shl 15 -> offsets)
+    float +0x2940=0.390, +0x2948=0.390 (scaled by lib weight)
+  [FONT SECTION] at 0x12297C: first bytes = 06 00 0e 14 16 00 10 74
+    next -1 separator at 0x131BF0
+
+====================================================================================================
+[LIBRARY 1] blob starts at 0x131BF4
+  format_count = 1
+  field X (+4) = 7
+  field Y (+8) = 23
+  glyph_count  = 34
+  glyph list at 0x131C04:
+    [ 0] char='0' float=0.650 (first entry, 8 bytes)
+    [ 1] sep=FFFFFFFF flag=1 char='1' (u+0031) float=0.500
+    [ 2] sep=FFFFFFFF flag=1 char='2' (u+0032) float=0.650
+    [ 3] sep=FFFFFFFF flag=1 char='3' (u+0033) float=0.650
+    [ 4] sep=FFFFFFFF flag=1 char='4' (u+0034) float=0.650
+    [ 5] sep=FFFFFFFF flag=1 char='5' (u+0035) float=0.650
+    [ 6] sep=FFFFFFFF flag=1 char='6' (u+0036) float=0.650
+    [ 7] sep=FFFFFFFF flag=1 char='7' (u+0037) float=0.650
+    [ 8] sep=FFFFFFFF flag=1 char='8' (u+0038) float=0.650
+    [ 9] sep=FFFFFFFF flag=1 char='9' (u+0039) float=0.650
+    [10] sep=FFFFFFFF flag=1 char='A' (u+0041) float=0.700
+    [11] sep=FFFFFFFF flag=0 char='B' (u+0042) float=0.700
+    [12] sep=FFFFFFFF flag=0 char='C' (u+0043) float=0.700
+    [13] sep=FFFFFFFF flag=0 char='D' (u+0044) float=0.700
+    [14] sep=FFFFFFFF flag=0 char='E' (u+0045) float=0.700
+    [15] sep=FFFFFFFF flag=0 char='F' (u+0046) float=0.700
+    [16] sep=FFFFFFFF flag=0 char='G' (u+0047) float=0.700
+    [17] sep=FFFFFFFF flag=0 char='H' (u+0048) float=0.700
+    [18] sep=FFFFFFFF flag=0 char='I' (u+0049) float=0.400
+    [19] sep=FFFFFFFF flag=0 char='J' (u+004A) float=0.700
+    [20] sep=FFFFFFFF flag=0 char='K' (u+004B) float=0.700
+    [21] sep=FFFFFFFF flag=0 char='L' (u+004C) float=0.700
+    [22] sep=FFFFFFFF flag=0 char='M' (u+004D) float=0.700
+    [23] sep=FFFFFFFF flag=0 char='N' (u+004E) float=0.700
+    [24] sep=FFFFFFFF flag=0 char='O' (u+004F) float=0.700
+    [25] sep=FFFFFFFF flag=0 char='P' (u+0050) float=0.700
+    [26] sep=FFFFFFFF flag=0 char='R' (u+0052) float=0.700
+    [27] sep=FFFFFFFF flag=0 char='S' (u+0053) float=0.700
+    [28] sep=FFFFFFFF flag=0 char='T' (u+0054) float=0.700
+    [29] sep=FFFFFFFF flag=0 char='U' (u+0055) float=0.700
+    [30] sep=FFFFFFFF flag=0 char='V' (u+0056) float=0.700
+    [31] sep=FFFFFFFF flag=0 char='W' (u+0057) float=0.700
+    [32] sep=FFFFFFFF flag=0 char='Y' (u+0059) float=0.700
+    [33] sep=FFFFFFFF flag=0 char='Z' (u+005A) float=0.700
+  glyph copy block ends at 0x131E24
+  matrix (font features) copied from 0x131E24, 131605 dwords (526420 bytes)
+    (prefix at 0x131E1C: FFFFFFFF 00000000)
+    matrix[+0] = 6, [+4] = 12
+    mask string 1 (+8):  '8365YKAKOCNV'  (len 12)
+    mask string 2 (+408): 'KMOCDCBEAKMKHKKHYTULUCNR'  (len 24)
+  [FORMAT 0] record at 0x1B2678 (10608 bytes)
+    +0x00 = 7 (0x7)
+    +0x04 = 0
+    +0x08 = 0
+    +0x0C = 6  (positions, <=16)
+    +0x10 = 34  (glyph class entries)
+    +0x14 = 0
+    +0x18 = 1
+    +0x28 = 3, +0x2C = 1
+    +0x30 = 4294967295
+    +0x48 = 3, +0x4C = 3
+    +0x5C float = 1.000
+    mask1 (+0x60, utf16): 'zzzzzz'
+    mask2 (+0xA0, utf16): '******'
+    floats +0xE0: 0.000 0.000 0.130 1.000 1.000 1.000 0.500 0.500 1.000 1.000 0.500 0.500 0.000 0.000 0.160 0.000
+    glyph classes at +0x1D28 (0x1B43AC), 34 entries:
+      [ 0] char='0' (u+0030) float=0.650  first entry 8 bytes
+      [ 1] sep=FFFFFFFF flag=1 char='1' (u+0031) float=0.500
+      [ 2] sep=FFFFFFFF flag=1 char='2' (u+0032) float=0.650
+      [ 3] sep=FFFFFFFF flag=1 char='3' (u+0033) float=0.650
+      [ 4] sep=FFFFFFFF flag=1 char='4' (u+0034) float=0.650
+      [ 5] sep=FFFFFFFF flag=1 char='5' (u+0035) float=0.650
+      [ 6] sep=FFFFFFFF flag=1 char='6' (u+0036) float=0.650
+      [ 7] sep=FFFFFFFF flag=1 char='7' (u+0037) float=0.650
+      [ 8] sep=FFFFFFFF flag=1 char='8' (u+0038) float=0.650
+      [ 9] sep=FFFFFFFF flag=1 char='9' (u+0039) float=0.650
+      [10] sep=FFFFFFFF flag=1 char='A' (u+0041) float=0.700
+      [11] sep=FFFFFFFF flag=0 char='B' (u+0042) float=0.700
+      [12] sep=FFFFFFFF flag=0 char='C' (u+0043) float=0.700
+      [13] sep=FFFFFFFF flag=0 char='D' (u+0044) float=0.700
+      [14] sep=FFFFFFFF flag=0 char='E' (u+0045) float=0.700
+      [15] sep=FFFFFFFF flag=0 char='F' (u+0046) float=0.700
+      [16] sep=FFFFFFFF flag=0 char='G' (u+0047) float=0.700
+      [17] sep=FFFFFFFF flag=0 char='H' (u+0048) float=0.700
+      [18] sep=FFFFFFFF flag=0 char='I' (u+0049) float=0.400
+      [19] sep=FFFFFFFF flag=0 char='J' (u+004A) float=0.700
+      [20] sep=FFFFFFFF flag=0 char='K' (u+004B) float=0.700
+      [21] sep=FFFFFFFF flag=0 char='L' (u+004C) float=0.700
+      [22] sep=FFFFFFFF flag=0 char='M' (u+004D) float=0.700
+      [23] sep=FFFFFFFF flag=0 char='N' (u+004E) float=0.700
+      [24] sep=FFFFFFFF flag=0 char='O' (u+004F) float=0.700
+      [25] sep=FFFFFFFF flag=0 char='P' (u+0050) float=0.700
+      [26] sep=FFFFFFFF flag=0 char='R' (u+0052) float=0.700
+      [27] sep=FFFFFFFF flag=0 char='S' (u+0053) float=0.700
+      [28] sep=FFFFFFFF flag=0 char='T' (u+0054) float=0.700
+      [29] sep=FFFFFFFF flag=0 char='U' (u+0055) float=0.700
+      [30] sep=FFFFFFFF flag=0 char='V' (u+0056) float=0.700
+      [31] sep=FFFFFFFF flag=0 char='W' (u+0057) float=0.700
+      [32] sep=FFFFFFFF flag=0 char='Y' (u+0059) float=0.700
+      [33] sep=FFFFFFFF flag=0 char='Z' (u+005A) float=0.700
+    glyph template refs: +0x2134=0, +0x2138=0 (shl 15 -> offsets)
+    float +0x2940=0.390, +0x2948=0.390 (scaled by lib weight)
+  [FONT SECTION] at 0x1B4FE8: first bytes = 06 00 0e 14 21 00 10 4d
+    next -1 separator at 0x1C752C
+
+====================================================================================================
+[LIBRARY 2] blob starts at 0x1C7530
+  format_count = 1
+  field X (+4) = 6
+  field Y (+8) = 23
+  glyph_count  = 34
+  glyph list at 0x1C7540:
+    [ 0] char='0' float=0.650 (first entry, 8 bytes)
+    [ 1] sep=FFFFFFFF flag=1 char='1' (u+0031) float=0.500
+    [ 2] sep=FFFFFFFF flag=1 char='2' (u+0032) float=0.650
+    [ 3] sep=FFFFFFFF flag=1 char='3' (u+0033) float=0.650
+    [ 4] sep=FFFFFFFF flag=1 char='4' (u+0034) float=0.650
+    [ 5] sep=FFFFFFFF flag=1 char='5' (u+0035) float=0.650
+    [ 6] sep=FFFFFFFF flag=1 char='6' (u+0036) float=0.650
+    [ 7] sep=FFFFFFFF flag=1 char='7' (u+0037) float=0.650
+    [ 8] sep=FFFFFFFF flag=1 char='8' (u+0038) float=0.650
+    [ 9] sep=FFFFFFFF flag=1 char='9' (u+0039) float=0.650
+    [10] sep=FFFFFFFF flag=1 char='A' (u+0041) float=0.700
+    [11] sep=FFFFFFFF flag=0 char='B' (u+0042) float=0.700
+    [12] sep=FFFFFFFF flag=0 char='C' (u+0043) float=0.700
+    [13] sep=FFFFFFFF flag=0 char='D' (u+0044) float=0.700
+    [14] sep=FFFFFFFF flag=0 char='E' (u+0045) float=0.700
+    [15] sep=FFFFFFFF flag=0 char='F' (u+0046) float=0.700
+    [16] sep=FFFFFFFF flag=0 char='G' (u+0047) float=0.700
+    [17] sep=FFFFFFFF flag=0 char='H' (u+0048) float=0.700
+    [18] sep=FFFFFFFF flag=0 char='I' (u+0049) float=0.400
+    [19] sep=FFFFFFFF flag=0 char='J' (u+004A) float=0.700
+    [20] sep=FFFFFFFF flag=0 char='K' (u+004B) float=0.700
+    [21] sep=FFFFFFFF flag=0 char='L' (u+004C) float=0.700
+    [22] sep=FFFFFFFF flag=0 char='M' (u+004D) float=0.700
+    [23] sep=FFFFFFFF flag=0 char='N' (u+004E) float=0.700
+    [24] sep=FFFFFFFF flag=0 char='O' (u+004F) float=0.700
+    [25] sep=FFFFFFFF flag=0 char='P' (u+0050) float=0.700
+    [26] sep=FFFFFFFF flag=0 char='R' (u+0052) float=0.700
+    [27] sep=FFFFFFFF flag=0 char='S' (u+0053) float=0.700
+    [28] sep=FFFFFFFF flag=0 char='T' (u+0054) float=0.700
+    [29] sep=FFFFFFFF flag=0 char='U' (u+0055) float=0.700
+    [30] sep=FFFFFFFF flag=0 char='V' (u+0056) float=0.700
+    [31] sep=FFFFFFFF flag=0 char='W' (u+0057) float=0.700
+    [32] sep=FFFFFFFF flag=0 char='Y' (u+0059) float=0.700
+    [33] sep=FFFFFFFF flag=0 char='Z' (u+005A) float=0.700
+  glyph copy block ends at 0x1C7760
+  matrix (font features) copied from 0x1C7760, 131605 dwords (526420 bytes)
+    (prefix at 0x1C7758: FFFFFFFF 00000000)
+    matrix[+0] = 6, [+4] = 12
+    mask string 1 (+8):  '8365YKAKOCNV'  (len 12)
+    mask string 2 (+408): 'KMOCDCBEAKMKHKKHYTULUCNR'  (len 24)
+  [FORMAT 0] record at 0x247FB4 (10608 bytes)
+    +0x00 = 6 (0x6)
+    +0x04 = 0
+    +0x08 = 0
+    +0x0C = 6  (positions, <=16)
+    +0x10 = 34  (glyph class entries)
+    +0x14 = 0
+    +0x18 = 1
+    +0x28 = 3, +0x2C = 1
+    +0x30 = 4294967295
+    +0x48 = 3, +0x4C = 3
+    +0x5C float = 1.000
+    mask1 (+0x60, utf16): 'zzzzzz'
+    mask2 (+0xA0, utf16): '******'
+    floats +0xE0: 0.000 0.000 0.130 1.000 1.000 1.000 0.500 0.500 1.000 1.000 0.500 0.500 0.000 0.000 0.160 0.000
+    glyph classes at +0x1D28 (0x249CE8), 34 entries:
+      [ 0] char='0' (u+0030) float=0.650  first entry 8 bytes
+      [ 1] sep=FFFFFFFF flag=1 char='1' (u+0031) float=0.500
+      [ 2] sep=FFFFFFFF flag=1 char='2' (u+0032) float=0.650
+      [ 3] sep=FFFFFFFF flag=1 char='3' (u+0033) float=0.650
+      [ 4] sep=FFFFFFFF flag=1 char='4' (u+0034) float=0.650
+      [ 5] sep=FFFFFFFF flag=1 char='5' (u+0035) float=0.650
+      [ 6] sep=FFFFFFFF flag=1 char='6' (u+0036) float=0.650
+      [ 7] sep=FFFFFFFF flag=1 char='7' (u+0037) float=0.650
+      [ 8] sep=FFFFFFFF flag=1 char='8' (u+0038) float=0.650
+      [ 9] sep=FFFFFFFF flag=1 char='9' (u+0039) float=0.650
+      [10] sep=FFFFFFFF flag=1 char='A' (u+0041) float=0.700
+      [11] sep=FFFFFFFF flag=0 char='B' (u+0042) float=0.700
+      [12] sep=FFFFFFFF flag=0 char='C' (u+0043) float=0.700
+      [13] sep=FFFFFFFF flag=0 char='D' (u+0044) float=0.700
+      [14] sep=FFFFFFFF flag=0 char='E' (u+0045) float=0.700
+      [15] sep=FFFFFFFF flag=0 char='F' (u+0046) float=0.700
+      [16] sep=FFFFFFFF flag=0 char='G' (u+0047) float=0.700
+      [17] sep=FFFFFFFF flag=0 char='H' (u+0048) float=0.700
+      [18] sep=FFFFFFFF flag=0 char='I' (u+0049) float=0.400
+      [19] sep=FFFFFFFF flag=0 char='J' (u+004A) float=0.700
+      [20] sep=FFFFFFFF flag=0 char='K' (u+004B) float=0.700
+      [21] sep=FFFFFFFF flag=0 char='L' (u+004C) float=0.700
+      [22] sep=FFFFFFFF flag=0 char='M' (u+004D) float=0.700
+      [23] sep=FFFFFFFF flag=0 char='N' (u+004E) float=0.700
+      [24] sep=FFFFFFFF flag=0 char='O' (u+004F) float=0.700
+      [25] sep=FFFFFFFF flag=0 char='P' (u+0050) float=0.700
+      [26] sep=FFFFFFFF flag=0 char='R' (u+0052) float=0.700
+      [27] sep=FFFFFFFF flag=0 char='S' (u+0053) float=0.700
+      [28] sep=FFFFFFFF flag=0 char='T' (u+0054) float=0.700
+      [29] sep=FFFFFFFF flag=0 char='U' (u+0055) float=0.700
+      [30] sep=FFFFFFFF flag=0 char='V' (u+0056) float=0.700
+      [31] sep=FFFFFFFF flag=0 char='W' (u+0057) float=0.700
+      [32] sep=FFFFFFFF flag=0 char='Y' (u+0059) float=0.700
+      [33] sep=FFFFFFFF flag=0 char='Z' (u+005A) float=0.700
+    glyph template refs: +0x2134=0, +0x2138=0 (shl 15 -> offsets)
+    float +0x2940=0.390, +0x2948=0.390 (scaled by lib weight)
+  [FONT SECTION] at 0x24A924: first bytes = 06 00 0e 14 21 00 10 4d
+    next -1 separator at 0x25CE68

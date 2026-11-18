@@ -1,0 +1,144 @@
+java version "27.0.1.0.3" 2026-10-25
+Java(TM) SE Runtime Environment (build 27.0.1.0.3+1-2)
+Java HotSpot(TM) 64-Bit Server VM (build 27.0.1.0.3+1-2, mixed mode)
+INFO  Using log config file: jar:file:/home/rafa/vocord/ghidra_12.2_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: /home/rafa/.config/ghidra/ghidra_12.2_PUBLIC/application.log (LoggingInitialization)  
+INFO  Loading user preferences: /home/rafa/.config/ghidra/ghidra_12.2_PUBLIC/preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (785 ms) (ClassSearcher)  
+WARNING: Final field name in class ghidra.util.charset.CharsetInfo has been mutated reflectively by class com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$2 in unnamed module @f736069 (file:/home/rafa/vocord/ghidra_12.2_PUBLIC/Ghidra/Framework/Generic/lib/gson-2.13.2.jar)
+WARNING: Use --enable-final-field-mutation=ALL-UNNAMED to avoid a warning
+WARNING: Mutating final fields will be blocked in a future release unless final field mutation is enabled
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: NativePRNGNonBlocking (SecureRandomFactory)  
+INFO  Loaded 120 trusted CA certificate(s) from /etc/ssl/certs/ca-certificates.crt (UnixSystemTrustKeyStoreUtil)  
+INFO  Loaded 120 trusted CA certificates from the OS trust store. (DefaultTrustManagerFactory)  
+INFO  Loaded 106 trusted CA certificates from the Java default trust store. (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (2470 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 60 extension points (19 false positives) (ClassSearcher)  
+INFO  HEADLESS Script Paths:
+    /home/rafa/vocord/ghidra_12.2_PUBLIC/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts
+    /home/rafa/vocord/ghidra_12.2_PUBLIC/Ghidra/Features/BSim/ghidra_scripts
+    /home/rafa/vocord/ghidra_12.2_PUBLIC/Ghidra/Features/Decompiler/ghidra_scripts
+    /home/rafa/vocord/ghidra_12.2_PUBLIC/Ghidra/Features/PyGhidra/ghidra_scripts
+    /home/rafa/vocord/ghidra_12.2_PUBLIC/Ghidra/Features/FileFormats/ghidra_scripts
+    /home/rafa/vocord/ghidra_12.2_PUBLIC/Ghidra/Features/VersionTracking/ghidra_scripts
+    /home/rafa/vocord/ghidra_12.2_PUBLIC/Ghidra/Processors/8051/ghidra_scripts
+    /home/rafa/vocord/analysis
+    /home/rafa/vocord/ghidra_12.2_PUBLIC/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /home/rafa/vocord/ghidra_12.2_PUBLIC/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /home/rafa/vocord/ghidra_12.2_PUBLIC/Ghidra/Debug/Debugger/ghidra_scripts
+    /home/rafa/vocord/ghidra_12.2_PUBLIC/Ghidra/Features/FunctionID/ghidra_scripts
+    /home/rafa/vocord/ghidra_12.2_PUBLIC/Ghidra/Processors/Atmel/ghidra_scripts
+    /home/rafa/vocord/ghidra_12.2_PUBLIC/Ghidra/Features/PDB/ghidra_scripts
+    /home/rafa/vocord/ghidra_12.2_PUBLIC/Ghidra/Processors/PIC/ghidra_scripts
+    /home/rafa/vocord/ghidra_12.2_PUBLIC/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /home/rafa/vocord/ghidra_12.2_PUBLIC/Ghidra/Features/BytePatterns/ghidra_scripts
+    /home/rafa/vocord/ghidra_12.2_PUBLIC/Ghidra/Processors/DATA/ghidra_scripts
+    /home/rafa/vocord/ghidra_12.2_PUBLIC/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /home/rafa/vocord/ghidra_12.2_PUBLIC/Ghidra/Processors/JVM/ghidra_scripts
+    /home/rafa/vocord/ghidra_12.2_PUBLIC/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /home/rafa/vocord/ghidra_12.2_PUBLIC/Ghidra/Features/Swift/ghidra_scripts
+    /home/rafa/vocord/ghidra_12.2_PUBLIC/Ghidra/Features/Base/ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Creating project: /home/rafa/vocord/ghidra_proj2/VOCORD2 (HeadlessAnalyzer)  
+INFO  Creating project: /home/rafa/vocord/ghidra_proj2/VOCORD2 (DefaultProject)  
+INFO  REPORT: Processing input files:  (HeadlessAnalyzer)  
+INFO       project: /home/rafa/vocord/ghidra_proj2/VOCORD2 (HeadlessAnalyzer)  
+INFO  IMPORTING: file:///home/rafa/vocord/TrafficAnalizerDll.dll (HeadlessAnalyzer)  
+INFO  Using Loader: Portable Executable (PE) (ProgramLoader)  
+INFO  Using Language/Compiler: x86:LE:32:default:windows (ProgramLoader)  
+INFO  Using Library Search Path: [., /bin, /lib, /lib64, /lib/x86_64-linux-gnu, /lib/aarch64-linux-gnu, /usr/bin, /usr/lib, /usr/X11R6/bin, /usr/X11R6/lib, /usr/java/packages/lib, /usr/lib64] (ProgramLoader)  
+INFO  Additional info:
+Loading file:///home/rafa/vocord/TrafficAnalizerDll.dll?MD5=c8b2e1e1f9f7fba4ab9ff6ac6d1e9384...
+------------------------------------------------
+
+Searching 8 paths for library KERNEL32.DLL...
+Library not found.
+------------------------------------------------
+
+Linking the External Programs of 'TrafficAnalizerDll.dll' to imported libraries...
+  [KERNEL32.DLL] -> not found in project
+------------------------------------------------
+
+ (ProgramLoader)  
+INFO  IMPORTING: Loaded 0 additional files (HeadlessAnalyzer)  
+INFO  ANALYZING all memory and code: file:///home/rafa/vocord/TrafficAnalizerDll.dll (HeadlessAnalyzer)  
+WARN  Ignoring leading '_' chars on no-return name '___raise_securityfailure' specified in file: /home/rafa/vocord/ghidra_12.2_PUBLIC/Ghidra/Features/Base/data/PEFunctionsThatDoNotReturn (NoReturnFunctionAnalyzer)  
+WARN  Ignoring leading '_' chars on no-return name '___report_rangecheckfailure' specified in file: /home/rafa/vocord/ghidra_12.2_PUBLIC/Ghidra/Features/Base/data/PEFunctionsThatDoNotReturn (NoReturnFunctionAnalyzer)  
+INFO  Unable to find DWARF information, skipping DWARF analysis (DWARFAnalyzer)  
+INFO  Skipping PDB processing: failed to locate PDB file in configured locations (PdbUniversalAnalyzer)  
+INFO  Use a script to set the PDB file location. I.e.,
+    PdbAnalyzer.setPdbFileOption(currentProgram, new File("/path/to/pdb/file.pdb")); or
+    PdbUniversalAnalyzer.setPdbFileOption(currentProgram, new File("/path/to/pdb/file.pdb"));
+Or set the symbol server search configuration using:    PdbPlugin.saveSymbolServerServiceConfig(...);
+ This must be done using a pre-script (prior to analysis). (PdbUniversalAnalyzer)  
+INFO  Packed database cache: /home/rafa/.cache/ghidra/packed-db-cache (PackedDatabaseCache)  
+INFO  Applied data type archive: windows_vs12_32 (ApplyDataArchiveAnalyzer)  
+INFO  Applied data type archive: windows_vs12_32 (ApplyDataArchiveAnalyzer)  
+INFO  No functions detected that make variadic function calls with format strings containing format specifiers (FormatStringAnalyzer)  
+INFO  -----------------------------------------------------
+    ASCII Strings                              1.373 secs
+    Apply Data Archives                        0.223 secs
+    Call Convention ID                         0.003 secs
+    Call-Fixup Installer                       0.127 secs
+    Create Address Tables                      0.632 secs
+    Create Address Tables - One Time           0.910 secs
+    Create Function                            2.099 secs
+    DWARF                                      0.002 secs
+    Data Reference                             1.042 secs
+    Decompiler Switch Analysis                11.487 secs
+    Demangler Microsoft                        0.255 secs
+    Disassemble                                6.921 secs
+    Disassemble Entry Points                   0.186 secs
+    Embedded Media                             0.081 secs
+    External Entry References                  0.000 secs
+    Function ID                                3.491 secs
+    Function Start Pre Search                  0.075 secs
+    Function Start Search                      5.351 secs
+    Function Start Search After Code           0.143 secs
+    Function Start Search After Data           4.680 secs
+    Function Start Search delayed - One Time   0.018 secs
+    Non-Returning Functions - Discovered       1.494 secs
+    Non-Returning Functions - Known            0.007 secs
+    PDB Universal                              0.015 secs
+    Reference                                  1.109 secs
+    Scalar Operand References                  4.504 secs
+    Shared Return Calls                        1.052 secs
+    Source Language Support                    0.005 secs
+    Stack                                     31.539 secs
+    Subroutine References                      2.434 secs
+    Subroutine References - One Time           0.005 secs
+    Variadic Function Signature Override       0.540 secs
+    Windows x86 PE Exception Handling          4.849 secs
+    Windows x86 PE RTTI Analyzer               0.001 secs
+    Windows x86 Thread Environment Block (TEB) Analyzer     0.026 secs
+    WindowsResourceReference                   0.387 secs
+    X86 Function Callee Purge                  1.999 secs
+    x86 Constant Reference Analyzer           13.218 secs
+-----------------------------------------------------
+     Total Time   102 secs
+-----------------------------------------------------
+ (AutoAnalysisManager)  
+INFO  REPORT: Analysis succeeded for file: file:///home/rafa/vocord/TrafficAnalizerDll.dll (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: DecompByKeywords.py  (HeadlessAnalyzer)  
+ERROR  (HeadlessAnalyzer)  
+ERROR REPORT SCRIPT ERROR: DecompByKeywords.py : Ghidra was not started with PyGhidra. Python is not available (HeadlessAnalyzer) ghidra.app.script.GhidraScriptLoadException: Ghidra was not started with PyGhidra. Python is not available
+	at ghidra.pyghidra.PyGhidraScriptProvider.getScriptInstance(PyGhidraScriptProvider.java:75)
+	at ghidra.app.util.headless.HeadlessAnalyzer.runScriptsList(HeadlessAnalyzer.java:929)
+	at ghidra.app.util.headless.HeadlessAnalyzer.analyzeProgram(HeadlessAnalyzer.java:1107)
+	at ghidra.app.util.headless.HeadlessAnalyzer.processFileWithImport(HeadlessAnalyzer.java:1606)
+	at ghidra.app.util.headless.HeadlessAnalyzer.processWithLoader(HeadlessAnalyzer.java:1770)
+	at ghidra.app.util.headless.HeadlessAnalyzer.processWithImport(HeadlessAnalyzer.java:1705)
+	at ghidra.app.util.headless.HeadlessAnalyzer.processWithImport(HeadlessAnalyzer.java:1795)
+	at ghidra.app.util.headless.HeadlessAnalyzer.processLocal(HeadlessAnalyzer.java:464)
+	at ghidra.app.util.headless.AnalyzeHeadless.launch(AnalyzeHeadless.java:211)
+	at ghidra.GhidraLauncher.launch(GhidraLauncher.java:78)
+	at ghidra.Ghidra.main(Ghidra.java:41)
+ 
+INFO  ANALYZING changes made by post scripts: file:///home/rafa/vocord/TrafficAnalizerDll.dll (HeadlessAnalyzer)  
+INFO  REPORT: Post-analysis succeeded for file: file:///home/rafa/vocord/TrafficAnalizerDll.dll (HeadlessAnalyzer)  
+INFO  /TrafficAnalizerDll.dll: file created (rafa) (LocalFileSystem)  
+INFO  REPORT: Save succeeded for: /TrafficAnalizerDll.dll (VOCORD2:/TrafficAnalizerDll.dll) (HeadlessAnalyzer)  
+INFO  REPORT: Import succeeded (HeadlessAnalyzer)  

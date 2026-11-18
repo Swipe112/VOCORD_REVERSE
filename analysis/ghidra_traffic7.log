@@ -1,0 +1,83 @@
+java version "27.0.1.0.3" 2026-10-25
+Java(TM) SE Runtime Environment (build 27.0.1.0.3+1-2)
+Java HotSpot(TM) 64-Bit Server VM (build 27.0.1.0.3+1-2, mixed mode)
+INFO  Using log config file: jar:file:/home/rafa/vocord/ghidra_12.2_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: /home/rafa/.config/ghidra/ghidra_12.2_PUBLIC/application.log (LoggingInitialization)  
+INFO  Loading user preferences: /home/rafa/.config/ghidra/ghidra_12.2_PUBLIC/preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (1343 ms) (ClassSearcher)  
+WARNING: Final field name in class ghidra.util.charset.CharsetInfo has been mutated reflectively by class com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$2 in unnamed module @f736069 (file:/home/rafa/vocord/ghidra_12.2_PUBLIC/Ghidra/Framework/Generic/lib/gson-2.13.2.jar)
+WARNING: Use --enable-final-field-mutation=ALL-UNNAMED to avoid a warning
+WARNING: Mutating final fields will be blocked in a future release unless final field mutation is enabled
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: NativePRNGNonBlocking (SecureRandomFactory)  
+INFO  Loaded 120 trusted CA certificate(s) from /etc/ssl/certs/ca-certificates.crt (UnixSystemTrustKeyStoreUtil)  
+INFO  Loaded 120 trusted CA certificates from the OS trust store. (DefaultTrustManagerFactory)  
+INFO  Loaded 106 trusted CA certificates from the Java default trust store. (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (3330 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 60 extension points (19 false positives) (ClassSearcher)  
+INFO  HEADLESS Script Paths:
+    /home/rafa/vocord/ghidra_12.2_PUBLIC/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts
+    /home/rafa/vocord/ghidra_12.2_PUBLIC/Ghidra/Features/BSim/ghidra_scripts
+    /home/rafa/vocord/ghidra_12.2_PUBLIC/Ghidra/Features/Decompiler/ghidra_scripts
+    /home/rafa/vocord/ghidra_12.2_PUBLIC/Ghidra/Features/PyGhidra/ghidra_scripts
+    /home/rafa/vocord/ghidra_12.2_PUBLIC/Ghidra/Features/FileFormats/ghidra_scripts
+    /home/rafa/vocord/ghidra_12.2_PUBLIC/Ghidra/Features/VersionTracking/ghidra_scripts
+    /home/rafa/vocord/ghidra_12.2_PUBLIC/Ghidra/Processors/8051/ghidra_scripts
+    /home/rafa/vocord/analysis
+    /home/rafa/vocord/ghidra_12.2_PUBLIC/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /home/rafa/vocord/ghidra_12.2_PUBLIC/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /home/rafa/vocord/ghidra_12.2_PUBLIC/Ghidra/Debug/Debugger/ghidra_scripts
+    /home/rafa/vocord/ghidra_12.2_PUBLIC/Ghidra/Features/FunctionID/ghidra_scripts
+    /home/rafa/vocord/ghidra_12.2_PUBLIC/Ghidra/Processors/Atmel/ghidra_scripts
+    /home/rafa/vocord/ghidra_12.2_PUBLIC/Ghidra/Features/PDB/ghidra_scripts
+    /home/rafa/vocord/ghidra_12.2_PUBLIC/Ghidra/Processors/PIC/ghidra_scripts
+    /home/rafa/vocord/ghidra_12.2_PUBLIC/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /home/rafa/vocord/ghidra_12.2_PUBLIC/Ghidra/Features/BytePatterns/ghidra_scripts
+    /home/rafa/vocord/ghidra_12.2_PUBLIC/Ghidra/Processors/DATA/ghidra_scripts
+    /home/rafa/vocord/ghidra_12.2_PUBLIC/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /home/rafa/vocord/ghidra_12.2_PUBLIC/Ghidra/Processors/JVM/ghidra_scripts
+    /home/rafa/vocord/ghidra_12.2_PUBLIC/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /home/rafa/vocord/ghidra_12.2_PUBLIC/Ghidra/Features/Swift/ghidra_scripts
+    /home/rafa/vocord/ghidra_12.2_PUBLIC/Ghidra/Features/Base/ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Opening existing project: /home/rafa/vocord/ghidra_proj2/VOCORD2 (HeadlessAnalyzer)  
+INFO  Opening project: /home/rafa/vocord/ghidra_proj2/VOCORD2 (HeadlessProject)  
+INFO  REPORT: Processing project file: /TrafficAnalizerDll.dll (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: DecompByOffset.java '/home/rafa/vocord/analysis/out/traffic_slots.c' '0x80854' '0x8086c'  (HeadlessAnalyzer)  
+ERROR DecompByOffset.java:24: error: cannot find symbol
+                    for (int i = 0; i < ins.getOperand(o).getObjects().length; i++) {
+                                           ^
+  symbol:   method getOperand(int)
+  location: variable ins of type ghidra.program.model.listing.Instruction
+DecompByOffset.java:25: error: cannot find symbol
+                        Object obj = ins.getOperand(o).getObjects()[i];
+                                        ^
+  symbol:   method getOperand(int)
+  location: variable ins of type ghidra.program.model.listing.Instruction
+skipping /home/rafa/vocord/analysis/DecompByOffset.java
+ (HeadlessAnalyzer)  
+ERROR REPORT SCRIPT ERROR: DecompByOffset.java : The class could not be found. It must be the public class of the .java file: DecompByOffset not found by 4c15e110 [1] (HeadlessAnalyzer) ghidra.app.script.GhidraScriptLoadException: The class could not be found. It must be the public class of the .java file: DecompByOffset not found by 4c15e110 [1]
+	at ghidra.app.script.JavaScriptProvider.getScriptInstance(JavaScriptProvider.java:114)
+	at ghidra.app.util.headless.HeadlessAnalyzer.runScriptsList(HeadlessAnalyzer.java:929)
+	at ghidra.app.util.headless.HeadlessAnalyzer.analyzeProgram(HeadlessAnalyzer.java:1107)
+	at ghidra.app.util.headless.HeadlessAnalyzer.processFileNoImport(HeadlessAnalyzer.java:1206)
+	at ghidra.app.util.headless.HeadlessAnalyzer.processFolderNoImport(HeadlessAnalyzer.java:1376)
+	at ghidra.app.util.headless.HeadlessAnalyzer.processNoImport(HeadlessAnalyzer.java:1405)
+	at ghidra.app.util.headless.HeadlessAnalyzer.processLocal(HeadlessAnalyzer.java:461)
+	at ghidra.app.util.headless.AnalyzeHeadless.launch(AnalyzeHeadless.java:211)
+	at ghidra.GhidraLauncher.launch(GhidraLauncher.java:78)
+	at ghidra.Ghidra.main(Ghidra.java:41)
+Caused by: java.lang.ClassNotFoundException: DecompByOffset not found by 4c15e110 [1]
+	at org.apache.felix.framework.BundleWiringImpl.findClassOrResourceByDelegation(BundleWiringImpl.java:1591)
+	at org.apache.felix.framework.BundleWiringImpl.access$300(BundleWiringImpl.java:79)
+	at org.apache.felix.framework.BundleWiringImpl$BundleClassLoader.loadClass(BundleWiringImpl.java:1976)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:502)
+	at org.apache.felix.framework.Felix.loadBundleClass(Felix.java:2116)
+	at org.apache.felix.framework.BundleImpl.loadClass(BundleImpl.java:986)
+	at ghidra.app.script.JavaScriptProvider.loadClass(JavaScriptProvider.java:166)
+	at ghidra.app.script.JavaScriptProvider.getScriptInstance(JavaScriptProvider.java:97)
+	... 9 more
+ 
+INFO  REPORT: Save succeeded for processed file: /TrafficAnalizerDll.dll (HeadlessAnalyzer)  

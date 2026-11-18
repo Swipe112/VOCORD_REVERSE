@@ -1,0 +1,1179 @@
+ 5d301c >>>> BinaryInfo(UNKNOWN) %d (%d.%d.%d)
+ 5d304c >>>> BinaryInfo(AdaBoost) %d (%d)
+ 5d307c >>>> BinaryInfo(LPlates) %d (%d.%d.%d)
+ 5d30ac %s%d.%d
+ 5d30c0 >>>> BinaryInfo(LPlates) %d (%d.FONT). Includes: 
+ 5d31c8 >>>> @@@@ TrafficAnalizer(CarProps) GetPelPosition T [%d] State=%02X, isInterp=%d
+ 5d3240 >>>> @@@@ TrafficAnalizer(CarProps) GetPelPosition L [%d] State=%02X, isInterp=%d
+ 5d32a8 >>>> @@@@ TrafficAnalizer(CarProps) GetInterStatus T [%d] State=%02X, isInterp=%d
+ 5d3310 >>>> @@@@ TrafficAnalizer(CarProps) GetInterStatus L [%d] State=%02X, isInterp=%d
+ 5d3388 >>>> TrafficAnalizer(CarProps) :  CCarProps->GetRadarSpeed: vel = %f, res = %x
+ 5d341c >>>> ALLOCATION ERROR. Size%-d Available=%-d
+ 5d38a8 >>>> TrafficAnalizer%s (Unknown) Can't Init! [%d x %d] FOURCC=[%c%c%c%c] Flip=%d
+ 5d3910 >>>> TrafficAnalizer%s (Unknown) Can't Init! [%d x %d] FOURCC=0x%08X Flip=%d
+ 5d3970 >>>> TrafficAnalizer%s (AdaBoost) Init [%d x %d] FOURCC=[%c%c%c%c] Flip=%d
+ 5d39d0 >>>> TrafficAnalizer%s (AdaBoost) Init [%d x %d] FOURCC=0x%08X Flip=%d
+ 5d3a28 >>>> TrafficAnalizer%s (LPlates) Init [%d x %d] FOURCC=[%c%c%c%c] Flip=%d
+ 5d3a88 >>>> TrafficAnalizer%s (LPlates) Init [%d x %d] FOURCC=0x%08X Flip=%d
+ 5d3b08 >>>> TrafficAnalizer          DeInit 2
+ 5d3b38 >>>> TrafficAnalizer(LPlates) DeInit 2
+ 5d3b68 >>>> TrafficAnalizer          DeInit (Disapeared)        [Id=%d] State=0x%04X (%s) TS=%-I64d
+ 5d3bd8 >>>> TrafficAnalizer          DeInit (Disapeared Double) [Id=%d] State=0x%04X (%s) TS=%-I64d
+ 5d3c5c >>>> TrafficAnalizer          DeInit 1
+ 5d3c9c >>>> TrafficAnalizer          Reset 2
+ 5d3cd0 >>>> TrafficAnalizer          Reset (Disapeared)        [Id=%d] State=0x%04X (%s) TS=%-I64d
+ 5d3d40 >>>> TrafficAnalizer          Reset (Disapeared Double) [Id=%d] State=0x%04X (%s) TS=%-I64d
+ 5d3db0 >>>> TrafficAnalizer          Reset 1
+ 5d3de0 >>>> TrafficAnalizer(LPlates) LoadLibrary%02d INVALID BINARY FILE
+ 5d3e30 >>>> TrafficAnalizer(LPlates) LoadLibrary%02d v%02d.%02d.%03d
+ 5d3e80 >>>> TrafficAnalizer(AdaBoost) LoadLibrary%02d INVALID BINARY FILE
+ 5d3ed4 >>>> TrafficAnalizer(AdaBoost) LoadLibrary%02d OK
+ 5d3f14 >>>> TrafficAnalizer(LPlates) Set_Mask%02d
+ 5d3f48 >>>> TrafficAnalizer(AdaBoost) Set_Mask%02d
+ 5d3f80 >>>> TrafficAnalizer(LPlates) SetPreferableRegionalCodes_old: id=%-d - FAIL
+ 5d3fe0 >>>> TrafficAnalizer(LPlates) SetPreferableRegionalCodes_old: id=%-d - %p
+ 5d4040 >>>> TrafficAnalizer(LPlates) SetPreferableRegionalCodes_old: id=%-d - "%ls"
+ 5d40a0 >>>> TrafficAnalizer(LPlates) SetLibraryWeight: id=%-d - %lf - FAIL
+ 5d40f4 >>>> TrafficAnalizer(LPlates) SetLibraryWeight: id=%-d - %lf
+ 5d4160 ffffff
+ 5d41b0 >>>> TrafficAnalizer(LPlates) SetLPHorizAngle: angle=%-lf scale=%lf
+ 5d4224 >>>> TrafficAnalizer(LPlates) SetROIEx%02d (%d) %d,%d,%d,%d
+ 5d4270 >>>> TrafficAnalizer(LPlates) V3 SetROIEx%02d (%d) %d,%d,%d,%d
+ 5d42bc >>>> TrafficAnalizer(AdaBoost) SetROIEx%02d (%d) %d,%d,%d,%d
+ 5d4308 >>>> TrafficAnalizer(LPlates) SetObjectSizeRange%02d Used (%d - %d)
+ 5d4360 >>>> TrafficAnalizer(LPlates) SetObjectSizeRange%02d (%d[%d] - %d[%d])
+ 5d43b8 >>>> TrafficAnalizer(AdaBoost) SetObjectSizeRange Used     (%d) %d - %d
+ 5d4410 >>>> TrafficAnalizer(AdaBoost) SetObjectSizeRange Requested(%d) (%d - %d)
+ 5d4470 >>>> TrafficAnalizer (ERROR)   SetObjectSizeRange%02d FLIPPED (%d - %d)
+ 5d44c8 >>>> TrafficAnalizer(LPlates) SetConfidenceThreshold - %lf
+ 5d4510 >>>> TrafficAnalizer(LPlates) SetCurrentConfidenceThreshold - %lf
+ 5d4560 >>>> TrafficAnalizer(LPlates) CalcPerspective. meter_y={%4.2f,%4.2f,%4.2f,%4.2f}
+ 5d45c8 >>>> TrafficAnalizer(LPlates) CalcPerspective. meter_x={%4.2f,%4.2f,%4.2f,%4.2f}
+ 5d4630 >>>> TrafficAnalizer(LPlates) CalcPerspective. pel_y={%4.2f,%4.2f,%4.2f,%4.2f}
+ 5d4690 >>>> TrafficAnalizer(LPlates) CalcPerspective. pel_x={%4.2f,%4.2f,%4.2f,%4.2f}
+ 5d46f0 >>>> TrafficAnalizer(LPlates) CalcPerspective. FAIL. Factor = %5.3lf
+ 5d4748 >>>> TrafficAnalizer(LPlates) CalcPerspective. OK. Factor = %5.3lf
+ 5d47b0 >>>> TrafficAnalizer(LPlates) SetPerspectiveEx (SIZE=%d). FAIL. Factor = %5.3lf
+ 5d4818 >>>> TrafficAnalizer(LPlates) SetPerspectiveEx (SIZE=%d). OK. Factor = %5.3lf
+ 5d4898 >>>> TrafficAnalizer(LPlates) SetPerspLengthFactor. Factor = %5.3lf
+ 5d48ec >>>> TrafficAnalizer(LPlates) ClearPerspective
+ 5d4928 >>>> TrafficAnalizer(LPlates) set camera altitude %f
+ 5d4968 >>>> TrafficAnalizer(LPlates) Get camera altitude FAILED
+ 5d49b0 >>>> TrafficAnalizer(LPlates) Get camera altitude %g
+ 5d49f0 >>>> TrafficAnalizer(LPlates) set camera focus = %g, lfPixelSide = %g 
+ 5d4a48 >>>> TrafficAnalizer(LPlates) Adjust Camera Props [%.1lf x %.1lf] - [%.1lf x %.1lf]. Dist = -%.1lf
+ 5d4ac0 >>>> TrafficAnalizer(LPlates) GetEulerAngles. FAILURE hr=0x%08
+ 5d4b10 >>>> TrafficAnalizer(LPlates) GetEulerAngles [Deg.]. Azimuth = %.1lf, Tangage = %.1f, Roll = %.1f 
+ 5d4b88 >>>> TrafficAnalizer(LPlates) SetSensitivity (%d)
+ 5d4bc8 >>>> TrafficAnalizer(AdaBoost) SetSensitivity (%d)
+ 5d4c08 >>>> TrafficAnalizer(LPlates) SetTrialPeriod (%d)
+ 5d4c48 >>>> TrafficAnalizer(LPlates) SetLeavingPeriod (%d)
+ 5d4c88 >>>> TrafficAnalizer(LPlates) SetVideoDiscontinueTimes %d %d 
+ 5d4cd8 >>>> TrafficAnalizer(LPlates) SetLaneStructure (%2d) Dir=%-2d TL=[%4d 
+ 5d4d1f  %4d],BL=[%4d 
+ 5d4d2e  %4d],TR=[%4d 
+ 5d4d3d  %4d],BR=[%4d 
+ 5d4d6c >>>> TrafficAnalizer(LPlates) SetLaneStructure (Lanes=%-d)
+ 5d4db4 (%d x %d)
+ 5d4dc0 >>>> TrafficAnalizer(LPlates) SetLaneStructureEx (%2d) N=%-2d, Dir=%-2d 
+ 5d4e18 >>>> TrafficAnalizer(LPlates) SetLaneStructureEx (Lanes=%-d)
+ 5d4e68 >>>> TrafficAnalizer(LPlates) RelLane  (%2d) Point=[%4d 
+ 5d4eb8 >>>> TrafficAnalizer(LPlates) SetBoundaryStructure ERROR (Failed after %-d)
+ 5d4f18 >>>> TrafficAnalizer(LPlates) SetBoundaryStructure (%2d) L=[%4d 
+ 5d4f59  %4d],R=[%4d 
+ 5d4f80 >>>> TrafficAnalizer(LPlates) SetBoundaryStructure (Boundaries=%-d)
+ 5d4fd8 >>>> TrafficAnalizer(LPlates) SetZoneStructure (%2d) TL=[%4d 
+ 5d5016  %4d],BL=[%4d 
+ 5d5025  %4d],TR=[%4d 
+ 5d5034  %4d],BR=[%4d 
+ 5d5060 >>>> TrafficAnalizer(LPlates) SetZoneStructure (Zones=%-d)
+ 5d50a8 >>>> TrafficAnalizer(LPlates) SetZoneStructure. The total count of zones is limited by 32.
+ 5d5118 >>>> TrafficAnalizer(LPlates) RelZone  (%08X) Point=[%4d 
+ 5d5178 >>>> TrafficAnalizer          Analize(Disapeared)        [Id=%d] State=0x%04X (%s) TS=%-I64d
+ 5d51e8 >>>> TrafficAnalizer          Analize(BOUNDARY_CROSS)        [Id=%d] BorderId=%-d
+ 5d5250 >>>> TrafficAnalizer          Analize(WRONGWAY_EVENT)        [Id=%d] NumDet=%-d
+ 5d52b8 >>>> TrafficAnalizer          Analize(Disapeared Invalid) [Id=%d] State=0x%04X (%s) TS=%-I64d
+ 5d5330 >>>> TrafficAnalizer          Analize(Disapeared Double) [Id=%d] State=0x%04X (%s) TS=%-I64d
+ 5d53b0 >>>> TrafficAnalizer          Analize(SUSPECTED_WRONGWAY_EVENT)        [Id=%d] #%-d NumDet=%-d
+ 5d5428 >>>> TrafficAnalizer          Analize(CUR_STOPPED_EVENT)        [Id=%d] IsStop[Prev=%1d -> Curr=%1d]
+ 5d54a8 >>>> TrafficAnalizer            (Confidence)    [Id=%d] %-8.6lf -> %-8.6lf (%s) LPTime = %-I64d
+ 5d5520 >>>> TrafficAnalizer          Analize(Detected) [Id=%d] State=0x%04X Conf(T=%lf, L=%lf) Int=%1d
+ 5d55a8 >>>> TrafficAnalizer          Analize(Detected) [Id=%d] State=0x%04X
+ 5d5600 >>>> TrafficAnalizer(LPlates) Analize. !!! APOCALYPTIC ERROR !!! RecChannelsWait Ret=0x%08X
+ 5d5670 >>>> TrafficAnalizer(LPlates) Analize(Try to Recognize) [Id=%d] Angle=%-6.3lf (%-5.1lfx%-5.1lf)(%-5.1lfx%-5.1lf) State=0x%04X
+ 5d5728 >>>> TrafficAnalizer          Analize(TrackerFailed) ERRCODE=0x%08X
+ 5d5780 >>>> TrafficAnalizer          Analize(DetectorFailed) ERRCODE=0x%08X
+ 5d57d8 >>>> TrafficAnalizer%s(LPlates) Analize(Timestamp) Fr=%-12I64d TS=%-16I64d(%I64d) RT=%-5.1lf NOT EQUAL
+ 5d5858 >>>> TrafficAnalizer%s(LPlates) Analize(Timestamp) Fr=%-12I64d TS=%-16I64d(%I64d) RT=%-5.1lf NOT EQUAL, RESET
+ 5d58e0 >>>> TrafficAnalizer%s(LPlates) Analize(Timestamp) Fr=%-12I64d TS=%-16I64d(%I64d) RT=%-5.1lf
+ 5d5950 >>>> TrafficAnalizer%s          Analize(Timestamp) Fr=%-12I64d TS=%-16I64d FIRST
+ 5d59b8 >>>> TrafficAnalizer          FindCarById(Requested)        [Id=%d] State=0x%04X (Confidence=%lf) (%s)
+ 5d5a48 >>>> TrafficAnalizer(LPlates) CalcSpeed [Id=%d] Track Speed =%-.1lf (err=%-.1lf), min speed =%-.1lf, max speed =%-.1lf Dir=%2d
+ 5d5af8 >>>> TrafficAnalizer(LPlates) CalcSpeed [Id=%d] Instant Speed =%-.1lf Dir=%2d
+ 5d5b58 >>>> TrafficAnalizer(LPlates) CalcSpeed [Id=%d] Instant Speed =%-.1lf Dir=0
+ 5d5bd4 >>>> TrafficAnalizer(LPlates) CalcLane (%2d) CarDir=%2d
+ 5d5c18 >>>> TrafficAnalizer(LPlates) SetLampStatesChecker Check=OFF
+ 5d5c64 >>>> TrafficAnalizer(LPlates) SetLampStatesChecker Check=ON
+ 5d5cb0 >>>> TrafficAnalizer(LPlates): CTrafficAnalizer->AddRadarData: ERROR m_pRadarHandler is NULL!
+ 5d5d28 >>>> TrafficAnalizer(LPlates): CTrafficAnalizer->AddRadarData: ERROR pRadarData is NULL!
+ 5d5d98 >>>> TrafficAnalizer(LPlates) CTrafficAnalizer->GetRadarPointToDraw: m_pRadarHandler is NULL 
+ 5d5e10 >>>> TrafficAnalizer(LPlates) CTrafficAnalizer->GetRadarPointToDraw: request point is NULL 
+ 5d621f ?ffffff
+ 5d624f ?33333
+ 5d6278 ffffff
+ 5d65a8 UUUUUU
+ 5d6877 ?333333
+ 5d68bf @333333
+ 5d6930 333333
+ 5d73ae o@UUUUUU
+ 5d78a7 ?333333
+ 5dd620 ffnAffnAffnAffnA
+ 5dd6c8 ffffff
+ 5dd6cf ?ffffff
+ 5de107 @333333
+ 5de117 @333333
+ 5de12f ?333333
+ 5de16b ?ff&?)\
+ 5de1bd !	@ff&?33
+ 5e0ecb 7fff?O
+ 5e1018  !"#$%&'()*+,-./0123456789:;<=>?@>>?@ABCDDEFGHIIJKLMMNOPQQRSTUUVWXXYZ[\\]^__`abbcdeefgghijjkllmnnopqqrsstuuvwwxyyz{{||}~~
+ 5eb0d8  !"#$%&'()*+,-./0123456789:;<=>?@>>?@ABCDDEFGHIIJKLMMNOPQQRSTUUVWXXYZ[\\]^__`abbcdeefgghijjkllmnnopqqrsstuuvwwxyyz{{||}~~
+ 5f4f18 Uninitialized data
+ 5f4f98 There are no more items
+ 5f5018 Invalid parameter(s)
+ 5f5098 There is no such service
+ 5f5118 Buffer is too small
+ 5f5198 Data has been initialized already
+ 5f5218 FOX error
+ 5f5298 MMType error
+ 5f5318 Format is not supplied
+ 5f5398 Operation is prohibited
+ 5f5418 Unknown data
+ 5f5498 Memory allocation error
+ 5f5518 File I//O error
+ 5f5598 Functionalities is not implemented
+ 5f5618 Java VM error
+ 5f5698 Java native error
+ 5f5718 Maximum of units is achieved
+ 5f5798 Invalid format
+ 5f5818 File//Oblect is exist already
+ 5f5898 Index/parameter is out of range
+ 5f5918 Symbol is not found
+ 5f5998 RMI error
+ 5f5a18 Broadway is not found
+ 5f5a98 Broadway hardware error
+ 5f5b18 More data is available
+ 5f5b98 Canceled operation
+ 5f5c18 Invalid method
+ 5f5c98 There is no connection
+ 5f5d18 Invalid user
+ 5f5d98 Timeout
+ 5f5e18 Network is fault
+ 5f5e98 Server is fault
+ 5f5f18 Internal error
+ 5f5f98 Invalid pointer
+ 5f6018 Invalid handle
+ 5f6098 Bad alignment
+ 5f6118 Invalid object
+ 5f6198 There is no data
+ 5f6218 Access is denied
+ 5f6298 There is not enought memory
+ 5f6318 ROI is too small
+ 5f6398 Internal error: overflow
+ 5f6418 Unknown error
+ 5f64a8 333333
+ 5f64ce (@333333
+ 5f64d7 ?UUUUUU
+ 5f658f ?333333
+ 5f65a7 ?333333
+ 5f6798 UUUUUU
+ 5f68de K@333333
+ 5f68f6 4@333333
+ 5f6a08 ffffff
+ 5f6ce7 ?333333
+ 5f6cef ?333333
+ 5f700e GAIsProcessorFeaturePresent
+ 5f702c KERNEL32
+ 5f7079 `h````
+ 5f7081 ppxxxx
+ 5f70ac (null)
+ 5f70d0 __GLOBAL_HEAP_SELECTED
+ 5f70e8 __MSVCRT_HEAP_SELECT
+ 5f71c4 runtime error 
+ 5f71d8 TLOSS error
+ 5f71e8 SING error
+ 5f71f8 DOMAIN error
+ 5f720f - unable to initialize heap
+ 5f7237 - not enough space for lowio initialization
+ 5f726f - not enough space for stdio initialization
+ 5f72a7 - pure virtual function call
+ 5f72cf - not enough space for _onexit/atexit table
+ 5f7307 - unable to open console device
+ 5f7333 - unexpected heap error
+ 5f7357 - unexpected multithread lock error
+ 5f7387 - not enough space for thread data
+ 5f73ae abnormal program termination
+ 5f73d7 - not enough space for environment
+ 5f7403 - not enough space for arguments
+ 5f742f - floating point not loaded
+ 5f7450 Microsoft Visual C++ Runtime Library
+ 5f747c Runtime Error!
+ 5f748c Program: 
+ 5f749c <program name unknown>
+ 5f74d0 _hypot
+ 5f75b8 GetLastActivePopup
+ 5f75cc GetActiveWindow
+ 5f75dc MessageBoxA
+ 5f75e8 user32.dll
+ 5f760c LC_TIME
+ 5f7614 LC_NUMERIC
+ 5f7620 LC_MONETARY
+ 5f762c LC_CTYPE
+ 5f7638 LC_COLLATE
+ 5f7644 LC_ALL
+ 5f7680 1#QNAN
+ 5f7698 1#SNAN
+ 5f76a0 Paraguay
+ 5f76ac Uruguay
+ 5f76bc Ecuador
+ 5f76c4 Argentina
+ 5f76d8 Colombia
+ 5f76e4 Venezuela
+ 5f76f0 Dominican Republic
+ 5f7704 South Africa
+ 5f7714 Panama
+ 5f771c Luxembourg
+ 5f7728 Costa Rica
+ 5f7734 Switzerland
+ 5f7740 Guatemala
+ 5f774c Canada
+ 5f7754 Spanish - Modern Sort
+ 5f776c Australia
+ 5f7778 English
+ 5f7780 Austria
+ 5f7788 German
+ 5f7790 Belgium
+ 5f7798 Mexico
+ 5f77a0 Spanish
+ 5f77a8 Basque
+ 5f77b0 Sweden
+ 5f77b8 Swedish
+ 5f77c0 Iceland
+ 5f77c8 Icelandic
+ 5f77d4 France
+ 5f77dc French
+ 5f77e4 Finland
+ 5f77ec Finnish
+ 5f77fc Spanish - Traditional Sort
+ 5f7818 united-states
+ 5f7828 united-kingdom
+ 5f7838 trinidad & tobago
+ 5f784c south-korea
+ 5f7858 south-africa
+ 5f7868 south korea
+ 5f7874 south africa
+ 5f7884 slovak
+ 5f788c puerto-rico
+ 5f7898 pr-china
+ 5f78a4 pr china
+ 5f78b4 new-zealand
+ 5f78c0 hong-kong
+ 5f78cc holland
+ 5f78d4 great britain
+ 5f78e4 england
+ 5f78fc britain
+ 5f7904 america
+ 5f7920 swedish-finland
+ 5f7930 spanish-venezuela
+ 5f7944 spanish-uruguay
+ 5f7954 spanish-puerto rico
+ 5f7968 spanish-peru
+ 5f7978 spanish-paraguay
+ 5f798c spanish-panama
+ 5f799c spanish-nicaragua
+ 5f79b0 spanish-modern
+ 5f79c0 spanish-mexican
+ 5f79d0 spanish-honduras
+ 5f79e4 spanish-guatemala
+ 5f79f8 spanish-el salvador
+ 5f7a0c spanish-ecuador
+ 5f7a1c spanish-dominican republic
+ 5f7a38 spanish-costa rica
+ 5f7a4c spanish-colombia
+ 5f7a60 spanish-chile
+ 5f7a70 spanish-bolivia
+ 5f7a80 spanish-argentina
+ 5f7a94 portuguese-brazilian
+ 5f7aac norwegian-nynorsk
+ 5f7ac0 norwegian-bokmal
+ 5f7ad4 norwegian
+ 5f7ae0 italian-swiss
+ 5f7af0 irish-english
+ 5f7b00 german-swiss
+ 5f7b10 german-luxembourg
+ 5f7b24 german-lichtenstein
+ 5f7b38 german-austrian
+ 5f7b48 french-swiss
+ 5f7b58 french-luxembourg
+ 5f7b6c french-canadian
+ 5f7b7c french-belgian
+ 5f7b8c english-usa
+ 5f7b98 english-us
+ 5f7ba4 english-uk
+ 5f7bb0 english-trinidad y tobago
+ 5f7bcc english-south africa
+ 5f7be4 english-nz
+ 5f7bf0 english-jamaica
+ 5f7c00 english-ire
+ 5f7c0c english-caribbean
+ 5f7c20 english-can
+ 5f7c2c english-belize
+ 5f7c3c english-aus
+ 5f7c48 english-american
+ 5f7c5c dutch-belgian
+ 5f7c6c chinese-traditional
+ 5f7c80 chinese-singapore
+ 5f7c94 chinese-simplified
+ 5f7ca8 chinese-hongkong
+ 5f7cbc chinese
+ 5f7ccc canadian
+ 5f7cd8 belgian
+ 5f7ce0 australian
+ 5f7cec american-english
+ 5f7d00 american english
+ 5f7d14 american
+ 5f7d28 H:mm:ss
+ 5f7d30 dddd, MMMM dd, yyyy
+ 5f7d44 M/d/yy
+ 5f7d54 December
+ 5f7d60 November
+ 5f7d6c October
+ 5f7d74 September
+ 5f7d80 August
+ 5f7da8 February
+ 5f7db4 January
+ 5f7dec Saturday
+ 5f7df8 Friday
+ 5f7e00 Thursday
+ 5f7e0c Wednesday
+ 5f7e18 Tuesday
+ 5f7e20 Monday
+ 5f7e28 Sunday
+ 5f7e70 SunMonTueWedThuFriSat
+ 5f7e88 JanFebMarAprMayJunJulAugSepOctNovDec
+ 5f8769 Y{?caz?YRy?
+ 5f877e u?q5t?9
+ 5f87d6 E?8)B?t+??
+ 5f887e a>MpT>
+ 5f8b62 n<zqb<
+ 5f8b7a *<	; <
+ 5f8bb1 mF;O-.;
+ 5f8bce w:byB:yI
+ 5f99df ?UUUUUU
+ 5f99ef ?UUUUUU
+ 5f9a08 UUUUUU
+ 5f9a20 UUUUUU
+ 5f9a2f ?UUUUUU
+ 5f9a48 UUUUUU
+ 5f9a60 UUUUUU
+ 5f9a6f ?UUUUUU
+ 5f9a88 UUUUUU
+ 5f9a8f ?UUUUUU
+ 5f9a9f ?UUUUUU
+ 5f9ab8 UUUUUU
+ 5f9abf ?UUUUUU
+ 5f9acf ?UUUUUU
+ 5f9ae8 UUUUUU
+ 5f9b00 UUUUUU
+ 5f9b0f ?UUUUUU
+ 5f9b28 UUUUUU
+ 5f9c6f 7GenuineIntel
+ 5f9c80 AuthenticAMD
+ 60a5ac TrafficAnalizerDll.dll
+ 60a5c3 ?Create@CTrafficAnalizerCreator_52@@SGPAUITrafficAnalizer@@XZ
+ 60a601 ?getBinaryInfo@@YGJPBEKPAUsBinaryInfo@@PAK@Z
+ 60be3c >>>> %s__%d_%d : !!!ERROR!!!! file %s line %d expression( %s ) 
+ 60be80 BayesianTracker
+ 60be90 D:\Work\trackers\surface\BayesianTracker\..\common\some_math\geom\../../tomcat_utils/_binary_settings/binary_settings_parser.h
+ 60bf10 m_pMemSource
+ 60bf20 D:\Work\trackers\surface\BayesianTracker\..\common\some_math\geom\polygons.h
+ 60bf70 D:\Work\trackers\surface\BayesianTracker\..\common\some_math\geom\planes_transformer_data.h
+ 60bfcc The not correct size of binary data 
+ 60bff4 m_pCur != 0
+ 60c000 D:\Work\trackers\surface\BayesianTracker\..\common\some_math\geom\../../tomcat_utils/_binary_settings/binary_settings.h
+ 60c078 count < 10240000
+ 60c08c The not correct version in binary data 
+ 60c0b8 deserilize
+ 60c0c4 The not correct id in binary data 
+ 60c0e8 >>>>%s_%d_%d %s->%s : %s
+ 60c104 (size % sizeof(PointsList::DataType)) == 0
+ 60c130 ProjectiveTransformationResultControler
+ 60c158 D:\Work\trackers\surface\BayesianTracker\..\common\some_math\geom\planes_transformer.h
+ 60c1b0 ProjectiveSurfaceResultControler
+ 60c1d4 D:\Work\trackers\surface\BayesianTracker\track_data_holder.h
+ 60c214 D:\Work\trackers\surface\BayesianTracker\_obj_filters\filters_collection.h
+ 60c264 CBayesianTracker
+ 60c280 release mode 
+ 60c290 m_memCheckInitDeinit
+ 60c2a8 convert picture  per %f 
+ 60c2c4 picture proceed frame per %f 
+ 60c2e4 filter proceed frame per %f 
+ 60c304 detector proceed frame per %f 
+ 60c324 DeInit
+ 60c32c tracker proceed frame per %f 
+ 60c34c m_pScaler
+ 60c358 m_pScaler == 0
+ 60c368 D:\Work\trackers\surface\BayesianTracker\TrackerData.h
+ 60c3a0 m_pMemManager == 0
+ 60c3b4 D:\Work\trackers\surface\BayesianTracker\BayesianTracker.cpp
+ 60c3f4 m_hogFilter == 0
+ 60c408 Tracker
+ 60c410 Can't allocate memmory 
+ 60c42c m_colorBitmap.pData
+ 60c440 m_YBitmap.pData
+ 60c450 processFrame
+ 60c460 change bitmap size (%d, %d) 
+ 60c488 logInnerParamsCoeffs
+ 60c4a0 Camera inner param focus_len = %1.3f, pix_size = %g, coeff = %1.4f 
+ 60c4e8  dAB1 = %f, dAB1_e = %f, errAB1 = %f 
+ 60c510  dAB1 = %f, dAB1_e = %f, errAB1 = %f, dCD1 = %f, dCD1_e = %f, errCD1 = %f 
+ 60c55c  dAB = %f, dAB_e = %f, errAB = %f, dAC = %f, dAC_e = %f, errAC = %f, dCD = %f, dCD_e = %f, errCD = %f 
+ 60c5c4 column height %f 
+ 60c5d8 without feature
+ 60c5e8 with feature
+ 60c5f8 The tracker work %s
+ 60c610 without search
+ 60c620 with search
+ 60c62c onFirstFrame
+ 60c63c Color format is %s 
+ 60c654 ERRCODE (ObjectDetector failed 2)
+ 60c678  detector find(%f, %f) 
+ 60c694 other.m_pEnd == m_pEnd
+ 60c6ac other.m_pBegin == m_pBegin
+ 60c6c8 index < m_EntityAlloc
+ 60c6e0 D:\Work\trackers\surface\BayesianTracker\bayesiantracker.h
+ 60c71c index >= 0
+ 60c728 detected: %d
+ 60c738 Unsupported pixel format %d 
+ 60c758 pImage
+ 60c760 ProcessFrame
+ 60c770 D:\Work\trackers\surface\BayesianTracker\intersection_track_data.h
+ 60c7b4 m_featureHolder.push_back(FeatureWrapper())
+ 60c7e8 m_pMainFeatures
+ 60c7f8 D:\Work\trackers\surface\BayesianTracker\..\common\tomcat_utils\_utils\data_structures\dynamic_array.h
+ 60c860 IsOverlapped
+ 60c870 overlapped object1(%f; %f), object2(%f; %f) 
+ 60c8a0 ClearPerspective
+ 60c8b4 Transformer.Init: %x
+ 60c8cc meter_y={%4.2f,%4.2f,%4.2f,%4.2f}
+ 60c8f0 meter_x={%4.2f,%4.2f,%4.2f,%4.2f}
+ 60c914 pel_y={%4.2f,%4.2f,%4.2f,%4.2f}
+ 60c938 CalculatePerspective
+ 60c950 pel_x={%4.2f,%4.2f,%4.2f,%4.2f}
+ 60c974 SetROIPolygon
+ 60c98c (%d; %d) 
+ 60c998 setOrientationNoiseFactor
+ 60c9b4 Set gradient orientation noise %d 
+ 60c9d8 Load_FromMemory
+ 60c9e8  The binary data loaded with error 
+ 60ca10 setCameraProperty
+ 60ca24  Focus length %g, pixel size %g 
+ 60ca48 m_pMemmory == 0
+ 60ca58 m_memmoryAllocated == 0
+ 60ca70 D:\Work\trackers\surface\BayesianTracker\..\common\tomcat_utils\_utils\data_structures\dynamic_array.ctp
+ 60cadc m_size == 0
+ 60cae8 i < m_size
+ 60caf4 m_size >= 0
+ 60cb08 reallocData()
+ 60cb18 pNewMem
+ 60cb20 !m_pMemmory
+ 60cb2c m_pBegin == 0
+ 60cb3c m_EntityAlloc == 0
+ 60cb50 m_size>=0
+ 60cb5c m_pBegin
+ 60cb68 m_size > 0
+ 60cb74 D:\Work\trackers\surface\BayesianTracker\_comporators\..\CommonFunctions.cpp
+ 60cbc4 eHistDetector
+ 60cbd4 eHogDetector
+ 60cbe4 eSldDetector
+ 60cbf4 eUnknown
+ 60cc00 undefined object
+ 60cc14 OBJECT_HEADS
+ 60cc24 OBJECT_NOISE
+ 60cc34 OBJECT_PLATES
+ 60cc44 OBJECT_UNKNOWN
+ 60cc54 OBJECT_PEDESTRIAN_CONFIDENT
+ 60cc70 OBJECT_PEDESTRIAN
+ 60cc84 OBJECT_FACE_PHOTO
+ 60cc98 OBJECT_FACE_VIDEO
+ 60ccac OBJECT_TRUCK
+ 60ccbc OBJECT_CARS
+ 60ccc8 D:\Work\trackers\surface\BayesianTracker\_comporators\CompositeComporator.h
+ 60cd14 D:\Work\trackers\surface\BayesianTracker\_SLD\\sld_property.h
+ 60cd54 D:\Work\trackers\surface\BayesianTracker\_hist\hist_orientation_property.h
+ 60cda0 ObjectOrientHistPropertyControler
+ 60cdc4 BinaryFileController
+ 60cddc D:\Work\trackers\surface\BayesianTracker\boundary_analyzer.h
+ 60ce1c D:\Work\trackers\surface\BayesianTracker\tracks_container.h
+ 60ce58 StopTracks
+ 60ce6c m_pTrackEnv
+ 60ce78 D:\Work\trackers\surface\BayesianTracker\Tracker.cpp
+ 60ceb0 pTrack
+ 60ceb8 HistOrintationComporator
+ 60ced4 getSimilarWeight
+ 60cee8 Can't find property for object %s 
+ 60cf0c concat tracks proceed frame per %f 
+ 60cf34 (*it)->GetKillReason() == 0
+ 60cf50 In track id=%d screanshot was rewrite 
+ 60cf78 HibernateStoppedtracks
+ 60cf90 LeavingTime exceeded id=%d
+ 60cfac pLPRes
+ 60cfb4 D:\Work\trackers\surface\BayesianTracker\_comporators\lpResultForHolder.h
+ 60d000 m_pResult == 0
+ 60d010 pFeatureData
+ 60d020 D:\Work\trackers\surface\BayesianTracker\_comporators\FeaterDataForHolder.h
+ 60d06c m_pFeaturFactory
+ 60d080 configureTrack
+ 60d090 Can't allocated memmory for SLD 
+ 60d0b4 postProcess
+ 60d0c0 !!!ERROR!!! Can't allocate memmory for pedestrian data 
+ 60d0fc compData.pData != 0
+ 60d110 handlers.m_compDataHolder.getData(ComporatorData::eFeature, compData)
+ 60d158 D:\Work\trackers\surface\BayesianTracker\_hist\hist_detector.h
+ 60d198 m_pEnv
+ 60d1a0 InitNewTrack
+ 60d1b0 Can't start track 
+ 60d1c4 baseTrack.getPointFromHistory(back_count, point)
+ 60d1f8 ERROR: Can't find start time in history 
+ 60d224 pTrackNew
+ 60d230 baseTrack.GetLength() >= numLastPointUse
+ 60d25c Track id = %d. The last chance detector return that is not object 
+ 60d2a0 proceedSigletoneTracks
+ 60d2b8 Track id = %d. The local detector return that is not object 
+ 60d2f8 assignObjectsToTracks
+ 60d310 m_workingObjects[objectIndex]
+ 60d330 m_workingTracks[trackIndex]
+ 60d34c trackIndex >= 0
+ 60d35c objectIndex >= 0
+ 60d370 pObject
+ 60d378 m_workingTracks.size() == numTracks
+ 60d39c m_workingObjects.size() == targets.size()
+ 60d3c8 AddObjects
+ 60d3d4 !!!ERROR!!! Can't allocated memmory for coresponding matrix 
+ 60d414 pDet->getHogResultBitmap(0, bitmap)
+ 60d438 pDet->getHogResultBitmap(index, bitmap)
+ 60d468 proceedLPTrackIntersection
+ 60d484 The track intersections id1 = %d id2 = %d 
+ 60d4b0 m_pCurr
+ 60d4b8 The track id = %d is split, new Track id = %d 
+ 60d4e8 id=%d 
+ 60d4fb  id=%d
+ 60d504 ConcatDuplicates
+ 60d518 id=%d 
+ 60d54e  id=%d)
+ 60d558 pSecondTrack
+ 60d568 pFirstTrack
+ 60d574 pComporator != 0
+ 60d588 calculateInternalParameters
+ 60d5a4 afterTrialAppearPeiod = %d 
+ 60d5cc SelfLearningDetectorPropertyContainer
+ 60d5fc Can't deserialize sld property 
+ 60d620 D:\Work\trackers\surface\BayesianTracker\_sld\sld_property.cpp
+ 60d660 m_sldProptys.push_back(*pProperty)
+ 60d684 D:\Work\trackers\surface\BayesianTracker\_sld\sld_property.h
+ 60d6c4 D:\Work\trackers\surface\BayesianTracker\_sld\..\..\common\tomcat_utils\_binary_settings\binary_settings.h
+ 60d730 m_sldProptys.push_back(sldProperty)
+ 60d754 SLDP_container
+ 60d764 it_where != end()
+ 60d778 D:\Work\trackers\surface\BayesianTracker\_sld\..\..\common\tomcat_utils\_utils\data_structures\list.ctp
+ 60d7e0 m_pAllocator
+ 60d7f0 m_pTail != 0
+ 60d800 m_pTail == 0
+ 60d810 empty()
+ 60d818 m_pTrack
+ 60d824 D:\Work\trackers\surface\BayesianTracker\track_data_holder.cpp
+ 60d864 m_pComporator
+ 60d874 m_list.push_back(pDetector)
+ 60d890 pDetector != 0
+ 60d8a0 m_pMemManager
+ 60d8b0 D:\Work\trackers\surface\BayesianTracker\..\common\tomcat_utils\_utils\\data_structures\\list.ctp
+ 60d914 m_list.push_back(pReciever)
+ 60d930 pReciever != 0
+ 60d940 m_list.push_back(pHandler)
+ 60d95c pHandler != 0
+ 60d96c m_list.push_back(pObject)
+ 60d988 pObject != 0
+ 60d998 it == m_data.end()
+ 60d9ac id > eInvalid
+ 60d9bc pData != 0
+ 60d9c8 it != m_data.end()
+ 60d9dc rel != TreeNode::eNo && rel != TreeNode::eParent
+ 60da10 pNode != 0
+ 60da1c pExchNode != 0
+ 60da2c D:\Work\trackers\surface\BayesianTracker\..\common\tomcat_utils\_utils\data_structures\binary_tree.ctp
+ 60da94 pTreeNode != 0
+ 60daa4 pcNode != 0
+ 60dab0 pbNode != 0
+ 60dabc pTreeNode
+ 60dac8 pCurNode
+ 60dad4 pReplaceNode
+ 60dae4 pParent != 0
+ 60daf4 pRightExch->getParent() != pRightExch
+ 60db1c pLeftSubTree->getParent() != pLeftSubTree
+ 60db48 pPlacement != 0
+ 60db58 m_pRoot
+ 60db60 pMemManager
+ 60db6c pCur->getData() < data
+ 60db84 pPrev != 0
+ 60db90 Can't get filter label from container 
+ 60dbb8 FiltersCollection
+ 60dbcc Can't desirialize filter label from container 
+ 60dbfc D:\Work\trackers\surface\BayesianTracker\_obj_filters\..\..\common\tomcat_utils\_binary_settings\binary_settings.h
+ 60dc70 D:\Work\trackers\surface\BayesianTracker\_obj_filters\filters_collection.cpp
+ 60dcc0 m_list.push_back(filterData)
+ 60dce0 D:\Work\trackers\surface\BayesianTracker\_obj_filters\..\..\common\tomcat_utils\_utils\data_structures\list.ctp
+ 60dd50 SizeFilter
+ 60dd5c object %s : minWidth %d;  minHeight %d; minRatio %f; maxRatio %f; 
+ 60dda0 ProjectiveFilter
+ 60ddbc object %s : yf = %d, hf = %d, ys = %d, hs = %d, ratioWH = %f 
+ 60ddfc This is %s hog detector 
+ 60de18 grayscale
+ 60de2c hog detector ver = %d 
+ 60de44 The not correct hog detector ver = %d, must be %d 
+ 60de78 FreeDetector
+ 60de88 CreateDetector
+ 60de98 Can't load hog library %s, error code: %d 
+ 60dec4 PedestrianDetectorDll.dll
+ 60dee0 SvmPedestrianFilter
+ 60def4 module = %x 
+ 60df04 D:\Work\trackers\surface\BayesianTracker\_obj_filters\svm_filter.cpp
+ 60df4c !m_module
+ 60df58 The pos obj %d, neg obj %d 
+ 60df78 The hog call proceed by %f 
+ 60df98 deinit
+ 60dfa0 The run count %d 
+ 60dfb4 m_tmpBitmap.pData == 0
+ 60dfcc m_scaleBitmap.pData == 0
+ 60dfe8 m_pFuncFreeDetector
+ 60dffc ret_val == ((LONG)0x00000000L)
+ 60e01c m_tmpBitmap.pData != 0
+ 60e034 inRect: w = %d, h = %d; outRect: w = %d, h = %d 
+ 60e068 m_scaleBitmap.pData != 0
+ 60e084 (outRect.height % align_y) == 0
+ 60e0a4 (outRect.width % align_x) == 0
+ 60e0c4 outRect.width >= hog_width && outRect.height >= hog_height
+ 60e100  scale %f 
+ 60e10c prepareImage
+ 60e11c  size for (%d; %d), width %d, height %d 
+ 60e148 src.pData != 0
+ 60e158 m_pDetector
+ 60e164 m_pSizeHolder != 0
+ 60e178 ((LONG)(m_pDetector->checkObjectsDll(numObjects, numObjects, (sHogDetectedObject*)&object, (sHogDetectedObject**)&pObjects, 1.0)) >= 0)
+ 60e200 Can't load image to hog !
+ 60e21c isPedestrian
+ 60e22c hog starting 
+ 60e23c onFirstRequest
+ 60e24c Can't set data for hog
+ 60e264 width = %d, height = %d, color format = %s
+ 60e290 %s.txt
+ 60e29c %s.pic
+ 60e2a4 points.push_back(p)
+ 60e2b8 D:\Work\trackers\surface\BayesianTracker\_obj_filters\..\TrackerData.h
+ 60e300 point(%f; %f), size(%f; %f), soft det = %s 
+ 60e340 m_scaleX = %f, m_scaleY = %f 
+ 60e360 D:\Work\trackers\surface\BayesianTracker\_obj_filters\svm_filter.h
+ 60e3a4  point in hog bitmap center (%f; %f) width = %f, height = %f 
+ 60e3e4 ((LONG)(m_pDetector->checkObjectsDllNoMultiscale(numObjects, numObjects, (sHogDetectedObject*)&object, (sHogDetectedObject**)&pObjects, tmpCoeff)) >= 0)
+ 60e480 findObject
+ 60e48c rect.height < bitmap.Height
+ 60e4a8 rect.width < bitmap.Width
+ 60e4c4 i < m_hogPoints.size()
+ 60e4dc ignoreTime = %f, multiscale = %f, windowFactorX = %f,      windowFactorY = %f, treshold = %f, detectorWeight = %f, stride = %d 
+ 60e560 Hog_Classifier
+ 60e570 row >= 0
+ 60e57c D:\Work\trackers\surface\BayesianTracker\_obj_filters\..\..\common\tomcat_utils\_utils\data_structures\dynamic_array_2d.ctp
+ 60e5f8 row < m_rows
+ 60e610 (y + m_windowHeight) < m_arrayHeight
+ 60e638 (x + m_windowWidth) < m_arrayWidth
+ 60e65c y >= 0
+ 60e664 x >= 0
+ 60e66c D:\Work\trackers\surface\BayesianTracker\_obj_filters\..\..\common\tomcat_utils\_utils\data_structures\dynamic_array.ctp
+ 60e6e8 D:\Work\trackers\surface\BayesianTracker\intersection_track_data.cpp
+ 60e730 it != m_map.end()
+ 60e744 D:\Work\trackers\surface\BayesianTracker\..\common\tomcat_utils\_utils\data_structures\list.ctp
+ 60e7a4 D:\Work\trackers\surface\BayesianTracker\_model_move\\..\..\common\tomcat_utils\_utils\memmory_manager\../data_structures/binary_tree.h
+ 60e82c D:\Work\trackers\surface\BayesianTracker\velocity_estimator.h
+ 60e86c D:\Work\trackers\surface\BayesianTracker\_comporators\ComporatorDataHolder.h
+ 60e8bc m_pModelMotion
+ 60e8cc D:\Work\trackers\surface\BayesianTracker\RTrack.cpp
+ 60e900 m_pTrackEnviroments
+ 60e914 ERROR. Can't predicate next point. 
+ 60e93c predicted point out of bound. Set state STATE_START_HIBERNATE  
+ 60e980 CRTrack
+ 60e988 preprocess
+ 60e994 Between frames too long time leave dt=%-16I64d 
+ 60e9c8 The track id = %d start hibernate. Too long time the license plate dont recognize.
+ 60ea1c pOtherHistory->getLast(otherState) == ((LONG)0x00000000L)
+ 60ea58 id = %d, BACK MOTION !!!
+ 60ea74 concatTracks
+ 60ea84 Can't concat track. The history is overfull 
+ 60eab4 Concat result: similarFormat = %s, recong = %d, firstRefinedPoint(%f; %f), lastRefinedPoint(%f;%f), firstRefinedPointM(%f;%f), lastRefinedPointM(%f; %f), firstTime = %-16I64d, lastTime = %-16I64d, dt = %f 
+ 60eb84 recongOther = %d, firstOther(%f; %f), lastOther(%f;%f), firstOtherM(%f;%f), lastOtherM(%f; %f), firstOtherTime = %-16I64d, lastOtherTime = %-16I64d, dt =  %f 
+ 60ec24 recong = %d, firstRefinedPoint(%f; %f), lastRefinedPoint(%f;%f), firstRefinedPointM(%f;%f), lastRefinedPointM(%f; %f), firstTime = %-16I64d, lastTime = %-16I64d, dt =  %f 
+ 60ecd4 lastOther.timeStamp != 0
+ 60ecf0 firstOther.timeStamp != 0
+ 60ed0c pasteTrackToTail
+ 60ed20  id=%d, len=%d <- id=%d, len=%d
+ 60ed44 addPointToApproximator
+ 60ed5c The track id=%d stopping, because the approximator is singular 
+ 60eda0 addPostGoodResult
+ 60edb4  id=%d, len=%d x=%4.0f y=%4.0f type %s, TS=%-16I64d state = %d, Xm = %f, Ym = %f, Wm = %f, Hm = %f   
+ 60ee1c The track id=%d stopping, because the predicted point out of bound 
+ 60ee64 The track id=%d stopping, because the interplated time is out
+ 60eea4 point.timeStamp > m_FirstPoint.timeStamp
+ 60eed0 m_eObjectType == point.m_objType
+ 60eef4 AddInterpolatePoint
+ 60ef08  id=%d, len=%d x=%4.0f y=%4.0f w=%4.0f h=%4.0f type %s, TS=%-16I64d state = %d
+ 60ef58 id=%d, The polinom not valid. The set STATE_START_HIBERNATE
+ 60ef98 The track id=%d stopping, because the "soft" hog time is out
+ 60efd8 point.timeStamp >= m_FirstPoint.timeStamp
+ 60f004 AddPoint
+ 60f010  id=%d, len=%d x=%4.0f y=%4.0f w = %d h = %d type %s, TS=%-16I64d state = %d
+ 60f060  track id = %d STATE_START_HIBERNATE, because AfterTrialAppearPeiod is expired. This is noise. 
+ 60f0c4 start_i >= 0
+ 60f0d4  track id = %d STATE_START_HIBERNATE, because the track has real point to few (2)
+ 60f128  track id = %d STATE_START_HIBERNATE, because the track is bad and real point to few (1)
+ 60f184 m_history.getCount() != 0
+ 60f1a0  track id = %d STATE_START_HIBERNATE, because LeavingPeriod is expired 
+ 60f1ec AddPredicted
+ 60f1fc id = %d, unknown speed 
+ 60f218 SURFACE: id = %d, resVel = %f, err = %f, minVel = %f, maxVel = %f 
+ 60f25c PLANES: id = %d, resVel = %f, err = %f, minVel = %f, maxVel = %f 
+ 60f2a0 id = %d, resVel = %f, err = %f, minVel = %f, maxVel = %f 
+ 60f2dc getVelocity
+ 60f2e8 id = %d, vel = %f, recong = %d, firstRefinedPoint(%f; %f), lastRefinedPoint(%f;%f), firstRefinedPointM(%f;%f), lastRefinedPointM(%f; %f), firstTime = %-16I64d , lastTime = %-16I64d , dt = %f 
+ 60f3ac m_firstRefinedPoint.timeStamp != 0
+ 60f3d0 m_lastRefinedPoint.timeStamp != 0
+ 60f3f8 stopState
+ 60f404  id=%d
+ 60f40c StopKillTrack
+ 60f41c This point(%f, %f) is out of bound 
+ 60f444 changeLastPoint
+ 60f454 prev data (%f, %f), new data (%f, %f) 
+ 60f47c m_currentState.relativeTime >= 0
+ 60f4a0 time >= 0
+ 60f4ac m_history.getLast(state) == ((LONG)0x00000000L)
+ 60f4dc m_pPointTranf
+ 60f4ec m_pModelMotion != 0
+ 60f504 GetStartDetectedPoint
+ 60f51c  track id = %d, state = %d,  point(%d; %d), size(%d;%d) 
+ 60f558 GetAngleToObject
+ 60f56c track_id = % d, angleToRoadPlane = %f, angleToObjectSymmetryPlane = %f, ret = %x 
+ 60f5c0 D:\Work\trackers\surface\BayesianTracker\_comporators\CompositeComporator.cpp
+ 60f610 pComparator
+ 60f61c trackSecond
+ 60f628 trackFirst
+ 60f634 D:\Work\trackers\surface\BayesianTracker\_comporators\..\..\common\tomcat_utils\_utils\data_structures\list.ctp
+ 60f6a4 >>>> : !!!ERROR!!!! file %s line %d expression( %s ) 
+ 60f6dc m_workingTracks.push_back(*res)
+ 60f6fc D:\Work\trackers\surface\BayesianTracker\tracks_container.cpp
+ 60f744 Allocated additional memmory space for tracks. Tracks allocated %d 
+ 60f78c TracksContainer
+ 60f79c getNewTrack
+ 60f7a8  can't allocated memmory for tracks 
+ 60f7d0 m_freeTracks.push_back(pTrack)
+ 60f7f0 it != m_workingTracks.end()
+ 60f80c m_workingTracks.end() != it
+ 60f828 D:\Work\trackers\surface\BayesianTracker\_model_move\..\..\common\tomcat_utils\_utils\memmory_manager\../data_structures/binary_tree.h
+ 60f8b0 D:\Work\trackers\surface\BayesianTracker\.\..\common\tomcat_utils\_utils\data_structures\list.ctp
+ 60f914 ObjectHistData
+ 60f924 increaseColorTresh = %f, isGoodObjectTresh = %f, largeRectFactorX = %f, timeNoSelectionToKillObject = %f,     compareTresh = %f, detectorTresh = %f
+ 60f9bc ObjectHist
+ 60f9c8 D:\Work\trackers\surface\BayesianTracker\_comporators\pedestrian_data.cpp
+ 60fa14 pDetector
+ 60fa20 track id = %d m_totalFailedCount = %d m_realCountTest = %d
+ 60fa5c tmpPoint.Height == it->Height
+ 60fa7c D:\Work\trackers\surface\BayesianTracker\_comporators\..\_obj_filters\..\TrackerData.h
+ 60fad4 The hog make resolve that track id = %d not pedestrian 
+ 60fb10 track id = %d m_failedCount = %d 
+ 60fb34 PedestrianData
+ 60fb44 getResult
+ 60fb50 starting hog for track id = %d 
+ 60fb74 m_pDetector != 0
+ 60fb88 m_pBitmap
+ 60fb94 m_lastFrameTimeStamp == timeStamp
+ 60fbb8 point.X >= 0 && point.X < bitmap.Width && point.Y >= 0 && point.Y < bitmap.Height
+ 60fc0c Track id = %d. vel = %f, rel = %f 
+ 60fc30 isReadyToTest
+ 60fc40 track id = %d, points num = %d, velocity = %f, dt = %f, firstPoint P(%f;%f) M(%f; %f), lastPoint P(%f; %f) M(%f;%f) 
+ 60fcb8 pTrackPointTransformer
+ 60fcd0 m_firstPictDetected.pData == 0
+ 60fcf0 bitmap.pData != 0
+ 60fd04 PedestrianPropertyController
+ 60fd24 m_deltaTestRealPoints = %f, m_skipDataToTest = %d, m_failedTestCountToKill = %d
+ 60fd78 D:\Work\trackers\surface\BayesianTracker\_hist\..\..\common\tomcat_utils\_binary_settings\../_utils/data_structures/list.ctp
+ 60fe00 Can't deserialize %s 
+ 60fe18 ENTITY_TYPE
+ 60fe24 D:\Work\trackers\surface\BayesianTracker\_hist\..\..\common\tomcat_utils\_binary_settings\conatiner_controler.ctp
+ 60fe98 m_list.push_back(*pProperty)
+ 60feb8 D:\Work\trackers\surface\BayesianTracker\_hist\..\..\common\tomcat_utils\_binary_settings\binary_settings.h
+ 60ff24 D:\Work\trackers\surface\BayesianTracker\boundary_analyzer.cpp
+ 60ff64 it == m_ids.end()
+ 60ff78 pB != 0
+ 60ff80 pTrack != 0
+ 60ff8c BoudaryAnalyse
+ 60ff9c analyseOnFrame
+ 60ffac The track id = %d intersect line id = %d. The Point(%f;%f) time %-16I64d.
+ 60fff8 Can't exrtrapolate track id = %d , line %d 
+ 610028 The exrtrapolate point(%f;%f) out of segment. track id = %d , line %d 
+ 610070 The track id = %d intersect by extrapolation line id = %d. The Point(%f;%f) time %-16I64d.
+ 6100cc analyseOnStopTrack
+ 6100e0 Can't recognize direction. The track id = %d intersect by extrapolation line id = %d. The Point(%f;%f) time %-16I64d. 
+ 610158 addBoundaryData
+ 610168 id = %d, left_point(%f; %f),  right_point(%f, %f), activate = %s, delay = %d 
+ 6101b8 pData->id >= 0
+ 6101c8 removeBoundaryData
+ 6101dc !WARNING! Can't find boundary line id = %d.
+ 61020c it != m_dataContainer.end()
+ 610228 id >= 0
+ 610230 getBoundryDataById
+ 610244 data->id >= 0
+ 610254 The boundary line id = %d set %s 
+ 610278 deactivate
+ 610284 activate
+ 610290 setBoundaryActivate
+ 6102a4 getBoundaryActivate
+ 6102b8  The delay %d set for boundary line %d 
+ 6102e4 setBoundaryDelay
+ 6102f8 getBoundaryDelay
+ 61030c LPRComparator
+ 61031c isSimilar
+ 610328 The tracks id = %d and id = %d is similar: weight = %f, treshold = %f, number first %w, second %w 
+ 61038c GeometryComparator
+ 6103a0 ~GeometryComparator
+ 6103b4 req / rej = %f 
+ 6103c8 weightY != 0.0
+ 6103d8 D:\Work\trackers\surface\BayesianTracker\_comporators\GeometryComporator.cpp
+ 610428 sigma != 0.0
+ 610438 m_speedCalcHistogram call per %f, number of calls %d 
+ 610470 m_speedMeasureAnalyse call per %f, number of calls %d 
+ 6104a8 HistOrientation
+ 6104b8 ~HistOrientation
+ 6104cc m_speedMeasureCompare call per %f, number of calls %d 
+ 610504 D:\Work\trackers\surface\BayesianTracker\_hist\..\_hist\hist_orientation_interface.h
+ 61055c i < 256
+ 610564 D:\Work\trackers\surface\BayesianTracker\_sld\random_tree_node.h
+ 6105a8 D:\Work\trackers\surface\BayesianTracker\_sld\feature_2pbit_class.h
+ 6105ec D:\Work\trackers\surface\BayesianTracker\_sld\sld_detector.cpp
+ 61062c Remove mistake by %f 
+ 610644 find object by %f 
+ 610658 SLDDetector
+ 610664 SpeedMeasure
+ 610674 Add object by %f 
+ 610688 findObjectsNeighbourhood
+ 6106a4  Clean other forest 
+ 6106bc pSlWindow
+ 6106c8 m_pIntegralPlane
+ 6106dc m_pBitmap->pData
+ 6106f0 m_pFullRes->pData
+ 610704 m_pFullRes
+ 610710 D:\Work\trackers\surface\BayesianTracker\_sld\object_merger.h
+ 610750 abs(x_ - object.x) <= 2 && abs(y_ - object.y) <= 2
+ 610784 addScaleInternal
+ 610798  Can't allocate memmory for integral plane 
+ 6107c8 ERROR .Can't init forest 
+ 6107e4 tryChangeSize
+ 6107f4 change size, old size (%d; %d), new size (%d; %d) 
+ 610828 addTargetPack
+ 610838 add object(%d; %d), scaleX = %d 
+ 61085c add Target OBJECT %d =========================
+ 61088c object find i = %d, sx = %d, j = %d, sy = %d 
+ 6108bc it != m_merger.end()
+ 6108d4 add error OBJECT %d =========================
+ 610904 tryClean
+ 610910 Clean forest block 
+ 610928  find object left %d top %d 
+ 610948 D:\Work\trackers\surface\BayesianTracker\_sld\..\TrackerData.h
+ 610988 D:\Work\trackers\surface\BayesianTracker\_hist\..\TrackerData.h
+ 6109c8 HistDetector
+ 6109d8 getResultLastChance
+ 6109ec  find point(%3.1f; %3.1f) 
+ 610a08 ~HistDetector
+ 610a18 find object per %f, calls %d, find objects %d 
+ 610a48 pBitmap->format == 0l || pBitmap->format == ((DWORD)(BYTE)('G') | ((DWORD)(BYTE)('R') << 8) | ((DWORD)(BYTE)('E') << 16) | ((DWORD)(BYTE)('Y') << 24 )) || pBitmap->format == ((DWORD)(BYTE)('Y') | ((DWORD)(BYTE)('U') << 8) | ((DWORD)(BYTE)('V') << 16) | ((DWORD)(BYTE)(' ') << 24 )) || pBitmap->format == ((DWORD)(BYTE)('R') | ((DWORD)(BYTE)('G') << 8) | ((DWORD)(BYTE)('B') << 16) | ((DWORD)(BYTE)('D') << 24 ))
+ 610be4 D:\Work\trackers\surface\BayesianTracker\_hist\hist_detector.cpp
+ 610c28 pBitmap != 0
+ 610c38 D:\Work\trackers\surface\BayesianTracker\_hist\float_hist.h
+ 610c74 m_channelsCount > i
+ 610c88 D:\Work\trackers\surface\BayesianTracker\_hist\..\_hist\..\..\common\tomcat_utils\_hist\hist_channel.h 
+ 610cf0 i < 128
+ 610cf8 D:\Work\trackers\surface\BayesianTracker\_hist\..\..\common\tomcat_utils\_utils\data_structures\dynamic_array.ctp
+ 610d6c TestHistData
+ 610d7c ~TestHistData
+ 610d8c D:\Work\trackers\surface\BayesianTracker\_hist\object_hist.cpp
+ 610dcc m_hist.getChannelsNumber() > chNum
+ 610df0 m_largeHist.calcByImage(*m_pBitmap)
+ 610e14 m_hist.calcByImage(*m_pBitmap)
+ 610e34 obj__comp_pict_%d.jpg
+ 610e4c obj_pict_%d.jpg
+ 610e5c obj_new_acc_pict_%d.jpg
+ 610e74 workHist.calcByImage(*m_pBitmap)
+ 610e98 LPResultData
+ 610ea8 getPSave
+ 610eb4 ERROR: Can't get comporision from LPRecognizer. May be not enough memmory. 
+ 610f0c LPTrack
+ 610f14 SetFeatureSpecialData
+ 610f2c ERROR! Try to set recognizer channel. But don't exist data holder 
+ 610f70 m_pLPRes == pLPRes
+ 610f84 D:\Work\trackers\surface\BayesianTracker\LPTrack.cpp
+ 610fbc m_wasSet == false
+ 610fd8 copyFromIfBetter
+ 610fec COPY! Copy recognision chanell 
+ 611010 m_pComparisionData != 0
+ 611028 pSaveData != 0
+ 611038 tryCopyLpRecChannel
+ 61104c  id1 = %d, conf1 = %f, id2 = %d,  conf2 = %f 
+ 61107c  id = %d. The track  is jump. Count point after jump %d 
+ 6110b8  id = %d, conf = %f, lastConf = %f, recognized %d 
+ 6110ec on compare tracks %d and %d, screenshot rewrite in track %d, curTrack %d
+ 611138 on compare tracks %d and %d, screenshot rewrite in track %d, curTrack %d 
+ 611184 pSaveData
+ 611190 updateScreenShot
+ 6111a4 ComporatorDataHolder
+ 6111bc setData
+ 6111c4 WARNING!!! Rewrite data! 
+ 6111e0 D:\Work\trackers\surface\BayesianTracker\_comporators\ComporatorDataHolder.cpp
+ 611230 m_data.push_back(data)
+ 611248 m_filters.push_back(pFilter)
+ 611268 D:\Work\trackers\surface\BayesianTracker\_obj_filters\composite_filter.cpp
+ 6112b4 pFilter != 0
+ 6112c4 D:\Work\trackers\surface\BayesianTracker\_obj_filters\composite_filter.h
+ 611310 it != m_filters.end()
+ 611328 CompositeFilter
+ 611338 loadFromContainer
+ 61134c Can't getAbstractData from container 
+ 611374 m_bsUsers.push_back(data)
+ 611390 ObjectParameterCalc
+ 6113a4 Can't calulacte object angles: not specified additional camera parameters
+ 6113f0 Can't calulacte object angles: not specified projetcive transformation 
+ 61143c m_pTransformer
+ 61144c D:\Work\trackers\surface\BayesianTracker\object_parameter_calc.cpp
+ 611490 m_pModelMove
+ 6114a0 D:\Work\trackers\surface\BayesianTracker\velocity_estimator.cpp
+ 6114e0 lp_len != 0.0
+ 6114f0  cover = %f m, cover = %f pix 
+ 611510 m_k = %f, m_kErr = %f, data size = %d 
+ 611538 m_trackId  = %d, vel = %f, vel1 = %f, minVel = %f, maxVel = %f, accel = %f, polErr = %f, err = %f, acc = %f,err1 = %f, acc1 = %f 
+ 6115bc  velocityes: %s 
+ 6115d0  height correct: %s 
+ 6115ec D:\Work\trackers\surface\BayesianTracker\..\Common\some_math\statistic\median_calculator.h
+ 611648 VelocityEstimator
+ 61165c calculate
+ 611668 data size = %d, length type = %d 
+ 61168c m_trackId  = %d correct velocity by height minvel %f->%f, vel %f->%f 
+ 6116d4 getCorVelocity
+ 6116e4 corVel = %f, err = %f,  vel = %f 
+ 611718 D:\Work\trackers\surface\BayesianTracker\..\Common\some_math\linear_algebra\linear_equations.h
+ 611778 D:\Work\trackers\surface\BayesianTracker\..\common\tomcat_utils\_utils\data_structures\\list.ctp
+ 6117dc m_trees[i].m_pTree
+ 6117f0 D:\Work\trackers\surface\BayesianTracker\_sld\sld_random_forest.h
+ 611834 m_pTreeNodeFactory
+ 611848 D:\Work\trackers\surface\BayesianTracker\_sld\sld_random_forest.cpp
+ 61188c m_pFeaterFactory
+ 6118a0 endIndex >= 0 && endIndex <= m_trees.size()
+ 6118cc beginIndex >= 0 && beginIndex < m_trees.size()
+ 6118fc index < m_treesBlocks
+ 611914 D:\Work\trackers\surface\BayesianTracker\_sld\..\..\common\tomcat_utils\_utils\data_structures\dynamic_array.ctp
+ 611988 m_mergedObjects.push_back(object)
+ 6119ac D:\Work\trackers\surface\BayesianTracker\_sld\object_merger.cpp
+ 6119ec m_entitys.push_back(entity)
+ 611a08 m_objects.push_back(object)
+ 611a24 D:\Work\trackers\surface\BayesianTracker\_sld\feature_2pbit_class.cpp
+ 611a6c heightWindow >= 8
+ 611a80 m_heightWindow >= height
+ 611a9c maxHeightIndex > 0
+ 611ab0 getNumberAlternativeByY() == s
+ 611ad8 (height % 2) == 0
+ 611aec indexY >= 0
+ 611af8 indexHeight >= 0
+ 611b0c indexX >= 0
+ 611b18 widthWindow >= 8
+ 611b2c m_pFeatureFactory != 0
+ 611b44 maxWidthIndex > 0
+ 611b58 D:\Work\trackers\surface\BayesianTracker\_sld\integral_plane.cpp
+ 611b9c bitmap.format == ((DWORD)(BYTE)('G') | ((DWORD)(BYTE)('R') << 8) | ((DWORD)(BYTE)('E') << 16) | ((DWORD)(BYTE)('Y') << 24 ))
+ 611c1c D:\Work\trackers\surface\BayesianTracker\_model_move\model_move_five_approxymators.h
+ 611c74 count >= 0
+ 611c80 STATIC_ASSOCIATIVE_ARRAY
+ 611c9c getNumberByKey
+ 611cac ERROR unknown in static associtive array. index %d 
+ 611ce4 MEMBERS_ENUMERATOR
+ 611cfc index < EnumStruct::_last
+ 611d18 BaseModelMove
+ 611d28 Approximate
+ 611d34 quad failed by x, linear approx 
+ 611d58 D:\Work\trackers\surface\BayesianTracker\_model_move\BaseModelMove.cpp
+ 611da0 pApproxX != 0
+ 611db0 pApproxY != 0
+ 611dc0 d < 1e-3
+ 611dcc d < 1e-4
+ 611dd8 D:\Work\trackers\surface\BayesianTracker\_model_move\stop_analyse.h
+ 611e1c m_BackMotion is TRUE 
+ 611e34 m_curBackMotion is TRUE 
+ 611e50 Object stop 
+ 611e60 m_BackMotion set to TRUE 2
+ 611e7c m_BackMotion set to TRUE
+ 611e98 StopAnalyseForWrongWay
+ 611eb0 addPoint
+ 611ebc Object start move
+ 611ed0 D:\Work\trackers\surface\BayesianTracker\_model_move\..\..\common\tomcat_utils\_utils\data_structures\list.ctp
+ 611f40 StopAnalyse
+ 611f4c Obj start move 
+ 611f60 Obj Stop 
+ 611f6c create tree 
+ 611f7c m_treeNodeFact
+ 611f8c D:\Work\trackers\surface\BayesianTracker\_sld\sld_tree.cpp
+ 611fc8 m_pFeatureClass
+ 611fd8 m_treeNodeFact != 0
+ 611fec pNextNode->getOtherChild(pLeaf, &pOtherNode)
+ 61201c pNextNode
+ 612028 m_pTreeRoot
+ 612034 pBranch
+ 61203c  Tree id = %d ------- %s --------------- 
+ 612070 bestFeature != -1
+ 612084 testFeatures[i]
+ 612094 pRootBranch != 0
+ 6120b0 pFeature
+ 6120bc sizeY >= 0
+ 6120c8 sizeX >= 0
+ 6120d4 D:\Work\trackers\surface\BayesianTracker\_sld\sld_2pbit_feature_int.cpp
+ 61211c  x = %d, y = %d, w = %d, h = %d, st = %d
+ 612148 D:\Work\trackers\surface\BayesianTracker\_model_move\approximator.h
+ 61218c D:\Work\trackers\surface\BayesianTracker\_model_move\approximator_factory.cpp
+ 6121e4 pMemSource
+ 6121f0 background
+ 6121fc object
+ 612204 unknown
+ 61220c D:\Work\trackers\surface\BayesianTracker\_sld\random_tree_node.cpp
+ 612250 m_pFeature
+ 61225c m_pLeftNode == 0 || pNode == 0
+ 61227c m_pRightNode == 0 || pNode == 0
+ 61229c m_pParent == 0 || pNode == 0
+ 6122bc %sRIGHT: %s |   NULL 
+ 6122d4 %sRIGHT:
+ 6122e0 %sLEFT: %s |   NULL 
+ 6122f8 %sLEFT:
+ 612300 NODE feature: %s 
+ 612314 D:\Work\trackers\surface\BayesianTracker\_model_move\approximator.cpp
+ 61235c m_maxOrder <= 3
+ 61236c (power - m_curPower) == 1
+ 612388 ApproximatorSpline
+ 61239c recalcPolinom
+ 6123ac Can't approximate. The matrix of MLS is singular.Pupose %c 
+ 6123ec j >= 0 && j < (3+1)
+ 612400 i >= 0 && i < (3+1)
+ 612414 polinomData.endTime >= Time
+ 612430 polinomData.startTime <= Time
+ 612450 tryFindPolinomByTime(Time, polinomData)
+ 612478 The time request out of the ploinom buffer. Using zero polinom 
+ 6124bc m_queue.size() == 1 || m_maxOrder == 0
+ 6124e4 time >= polinomData.startTime && time <= polinomData.endTime
+ 612524 curPolinomData.startTime == prevPolinomData.endTime
+ 612558 j >= 0 && j < 4
+ 612568 D:\Work\trackers\surface\BayesianTracker\_math\matrix_operations.h
+ 6125ac i >= 0 && i < 4
+ 6125c0 >>>> #### TrafficAnalizer(Recognizer_%s) (this=%.8p) OCR is ENABLED.
+ 612608 20161004
+ 612618 >>>> #### TrafficAnalizer(Recognizer_%s) (this=%.8p) Init (%s).
+ 61265c single-threaded
+ 61266c multi-threaded
+ 612680 >>>> #### TrafficAnalizer(Recognizer_%s) (this=%.8p) All channels deallocated.
+ 6126d0 >>>> #### TrafficAnalizer(Recognizer_%s) (this=%.8p) Number of channels: %d.
+ 612720 >>>> #### TrafficAnalizer(Recognizer_%s) (this=%.8p) DeInit.
+ 612760 >>>> #### TrafficAnalizer(Recognizer_%s) (this=%.8p) config > Max channels set: %d.
+ 6127b8 >>>> #### TrafficAnalizer(Recognizer_%s) ERROR: allocated channel has invalid state. (this=%.8p).
+ 612820 >>>> #### TrafficAnalizer(Recognizer_%s) ERROR: allocation error in SetMaxChannels() (this=%.8p).
+ 612888 >>>> #### TrafficAnalizer(Recognizer_%s) (this=%.8p) No change required.
+ 6128d8 >>>> #### TrafficAnalizer(Recognizer_%s) (this=%.8p) Requested max channels: %d.
+ 61292c .%.2d:%d
+ 612940 >>>> #### TrafficAnalizer(Recognizer_%s) (this=%.8p) config > unique LP sizes > %.1fx%.1f cm.
+ 6129a0 >>>> #### TrafficAnalizer(Recognizer_%s) ERROR: config DISCARDED: Failed to parse version info, (this=%.8p).
+ 612a10 >>>> #### TrafficAnalizer(Recognizer_%s) ERROR: allocation error during library load, (this=%.8p).
+ 612a78 >>>> #### TrafficAnalizer(Recognizer_%s) ERROR: failed to unload config for libid=%d, (this=%.8p).
+ 612ae0 >>>> #### TrafficAnalizer(Recognizer_%s) ERROR: config DISCARDED: %s, (this=%.8p).
+ 612b38 >>>> #### TrafficAnalizer(Recognizer_%s) (this=%.8p) config > No regional codes set at this time.
+ 612ba0 >>>> #### TrafficAnalizer(Recognizer_%s) (this=%.8p) config > Total formats loaded: %d.
+ 612c00 >>>> #### TrafficAnalizer(Recognizer_%s) (this=%.8p) config > config for libid=%d is in sync.
+ 612c60 >>>> #### TrafficAnalizer(Recognizer_%s) (this=%.8p) config > UNLOADED config for libid=%d.
+ 612cc0 >>>> #### TrafficAnalizer(Recognizer_%s) (this=%.8p) config > Config for libid=%d is in sync.
+ 612d20 >>>> #### TrafficAnalizer(Recognizer_%s) (this=%.8p) config > LOADED config for libid=%d: %s.
+ 612d80 >>>> #### TrafficAnalizer(Recognizer_%s) (this=%.8p) config > sync for all channels:
+ 612dd8 channelKillableSet
+ 612df0 >>>> #### TrafficAnalizer(Recognizer_%s) (this=%.8p) config > [countryid=%d] Preferable regional codes: replacement: %s->%s.
+ 612e70 >>>> #### TrafficAnalizer(Recognizer_%s) (this=%.8p) config > [countryid=%d] Preferable regional codes: %c%s.
+ 612ee0 >>>> #### TrafficAnalizer(Recognizer_%s) (this=%.8p) config > WARNING Attempt to apply regional codes string to OCR.
+ 612f58 >>>> #### TrafficAnalizer(Recognizer_%s) (this=%.8p) config > Weight for country %d has been set to %.3f.
+ 612fc4 SetConfigWeight
+ 612fd4 SetFormatWeight
+ 612fe8 >>>> #### TrafficAnalizer(Recognizer_%s) (this=%.8p) config > Total formats: loaded == %d, enabled == %d.
+ 613054 SetFormatEnabled
+ 613068 >>>> #### TrafficAnalizer(Recognizer_%s) (this=%.8p) LPLocationThreshold has been set to %.3f.
+ 6130c8 SetLPLocationThreshold
+ 6130e0 >>>> #### TrafficAnalizer(Recognizer_%s) WARNING: can't allocate %s: too many (trackid=%d), (this=%.8p).
+ 61314c set track id
+ 61315c init allocated track
+ 613178 >>>> #### TrafficAnalizer(Recognizer_%s) (this=%.8p) Number of channels: %d (peak since init: %d).
+ 6131e0 >>>> #### TrafficAnalizer(Recognizer_%s) (this=%.8p) Allocated %s for track %d (thread id=%d).
+ 613240 >>>> #### TrafficAnalizer(Recognizer_%s) ERROR: can't allocate %s: don't know why (trackid=%d), (this=%.8p).
+ 6132b0 channel
+ 6132b8 temporary channel
+ 6132cc GetChannelInterface
+ 6132e0 >>>> #### TrafficAnalizer(Recognizer_%s) (this=%.8p) Done
+ 613320 >>>> #### TrafficAnalizer(Recognizer_%s) (this=%.8p) > %d %s (track_id %d) -> thread %d, ev_has_data=%d, ev_finished=%d.
+ 6133a4 allocated
+ 6133b8 >>>> #### TrafficAnalizer(Recognizer_%s) (this=%.8p) Listing all channels:
+ 613404 WaitForRecognize
+ 613418 suicideFeedback
+ 613428 >>>> #### TrafficAnalizer(Recognizer_%s) (this=%.8p) Deallocated %s for track %d.
+ 61347c suicideFeedback inner
+ 613498 >>>> #### TrafficAnalizer(Recognizer_%s) ERROR: invoked Free() on unallocated channel, (this=%.8p).
+ 613500 suicideFeedback outer
+ 613518 >>>> #### TrafficAnalizer(Recognizer_%s) (this=%.8p) Screenshot position set to %d.
+ 613570 SetScreenshotPosition
+ 613588 SetFrame
+ 613598 >>>> #### TrafficAnalizer(Recognizer_%s) (this=%.8p) Found and freed abandoned temporary channel for track %d.
+ 613608 >>>> #### TrafficAnalizer(Recognizer_%s) (this=%.8p) Channel consistency check is %s.
+ 613660 disabled
+ 61366c enabled
+ 613678 >>>> #### TrafficAnalizer(Recognizer_%s) (this=%.8X) WARNING: have to kill the channel thread, thread id=0x%x.
+ 6136e8 >>>> #### TrafficAnalizer(Recognizer_%s) (this=%.8X) Waiting for thread to die, thread id=0x%x.
+ 613750 >>>> #### TrafficAnalizer(Recognizer_%s) [0x%x] ERROR: Failed to lock mutex 0x%x, %s, code=%X, timeout=%d.
+ 6137bc no reason string
+ 6137d0 >>>> #### TrafficAnalizer(Recognizer_%s) [%d] ERROR: Failed to release mutex %d, %s
+ 613828 >>>> #### TrafficAnalizer(Recognizer_%s) [%d] ERROR: Failed to set the event %s%d, %s.
+ 613880 >>>> #### TrafficAnalizer(Recognizer_%s) [0x%x] ERROR: event %s 0x%x timed out, %s.
+ 6138d8 >>>> #### TrafficAnalizer(Recognizer_%s) [0x%x] ERROR: events %s 0x%x and %s 0x%x timed out, %s.
+ 613940 >>>> #### TrafficAnalizer(Recognizer_%s) WARNING: WaitForMultipleObjects timed out, %s.
+ 6139a0 >>>> #### TrafficAnalizer(Recognizer_%s) (this=%.8p) ERROR: NN with hash 0x%.8X not found.
+ 613a00 >>>> #### TrafficAnalizer(Recognizer_%s) (this=%.8p) ERROR: blobs_count == %d > %d.
+ 613a58 >>>> #### TrafficAnalizer(Recognizer_%s) (this=%.8p) config > Weight for all (%d) countries has been set to %.3f.
+ 613ad0 >>>> #### TrafficAnalizer(Recognizer_%s) (this=%.8p) config > OCR multiplier has been set to %.3f.
+ 613b38 >>>> #### TrafficAnalizer(Recognizer_%s) (this=%.8p) config > Weight for format %d:%d has been set to %.3f.
+ 613ba8 >>>> #### TrafficAnalizer(Recognizer_%s) (this=%.8p) config > %s the format %d:%d.
+ 613c00 >>>> #### TrafficAnalizer(Recognizer_%s) (this=%.8p) config > %s the country %d.
+ 613c58 >>>> #### TrafficAnalizer(Recognizer_%s) (this=%.8p) config > OCR is %s.
+ 613ca4 DISABLED
+ 613cb0 ENABLED
+ 613cb8 >>>> #### TrafficAnalizer(Recognizer_%s) ERROR: failed to create recognizer object! (this=%.8p).
+ 613d20 >>>> #### TrafficAnalizer(Recognizer_%s) ERROR: !!! failed to create channel thread !!!, (this=%.8p).
+ 613d88 >>>> #### TrafficAnalizer(Recognizer_%s) (this=%.8p) Channel thread init, thread id=%d.
+ 613de4 terminate
+ 613df0 finished
+ 613e04 channel create
+ 613e18 >>>> #### TrafficAnalizer(Recognizer_%s) ERROR: failed to init recognizer object! (this=%.8p).
+ 613e78 >>>> #### TrafficAnalizer(Recognizer_%s) ERROR: failed to init OCR Recognizer; error code=%.8x, (this=%.8p)
+ 613ee8 channel destroy
+ 613ef8 >>>> #### TrafficAnalizer(Recognizer_%s) (this=%.8p) [id=%d] Fetching cached item %d of %d.
+ 613f58 >>>> #### TrafficAnalizer(Recognizer_%s) (this=%.8p) [id=%d] Raised data event at %I64d.
+ 613fb4 Recognize
+ 613fc0 >>>> #### TrafficAnalizer(Recognizer_%s) WARNING: cloning empty channel state, (this=%.8p).
